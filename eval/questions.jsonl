@@ -1,0 +1,36 @@
+{"q": "Hvað búa margir á Íslandi?", "table": ["MAN00101", "MAN10001"]}
+{"q": "Hvað bjuggu margar konur í Kópavogi árið 2025?", "table": ["MAN02005", "MAN10001"]}
+{"q": "Hversu margir íbúar eru í Reykjavík?", "table": ["MAN02005", "MAN10001", "MAN03270"]}
+{"q": "Hve mörg börn fæddust á Íslandi í fyrra?", "table": ["MAN05100", "MAN05101"]}
+{"q": "Hve mörg börn fæddust á Akureyri 2024?", "table": ["MAN05110"]}
+{"q": "Hver er meðalaldur mæðra þegar þær eignast fyrsta barn?", "table": ["MAN05101"]}
+{"q": "Hve margir dóu úr krabbameini árið 2023?", "table": ["MAN05301", "MAN05302"]}
+{"q": "Hve margir létust í Hafnarfirði 2025?", "table": ["MAN05221"]}
+{"q": "Hve margir fluttu frá Íslandi til Danmerkur?", "table": ["MAN01404"]}
+{"q": "Hversu margir erlendir ríkisborgarar fluttu til landsins 2025?", "table": ["MAN01400", "MAN01401", "MAN01404", "MAN01405"]}
+{"q": "Hver er verðbólgan núna?", "table": ["VIS01000"]}
+{"q": "Hver var meðalvísitala neysluverðs árið 2024?", "table": ["VIS01005"]}
+{"q": "Hvert er atvinnuleysið?", "table": ["VIN00001", "VIN00002", "VIN00003", "VIN00910", "VIN00920"]}
+{"q": "Hvert var atvinnuleysi kvenna á höfuðborgarsvæðinu á síðasta ársfjórðungi?", "table": ["VIN00910", "VIN00920"]}
+{"q": "Hve margir farþegar fóru um Keflavíkurflugvöll í júlí?", "table": ["SAM02001"]}
+{"q": "Hve margir Bandaríkjamenn komu um Keflavíkurflugvöll 2025?", "table": ["SAM02001"]}
+{"q": "Hversu margar gistinætur voru á hótelum á Norðurlandi í ágúst?", "table": ["SAM01102", "SAM01103", "SAM01201", "SAM01601"]}
+{"q": "Hve margir gistu á tjaldsvæðum í fyrra?", "table": ["SAM01501"]}
+{"q": "Hve margir farþegar komu með skemmtiferðaskipum til Reykjavíkur?", "table": ["SAM02002"]}
+{"q": "Hver var landsframleiðslan árið 2025?", "table": ["THJ01102", "THJ01103"]}
+{"q": "Hver er landsframleiðsla á mann?", "table": ["THJ01401"]}
+{"q": "Hver var hagvöxturinn á síðasta ársfjórðungi?", "table": ["THJ01601"]}
+{"q": "Hversu mikið var flutt út af sjávarafurðum 2025?", "table": ["SJA04901", "SJA04903"]}
+{"q": "Hve mikið var flutt út af eldisfiski til Bandaríkjanna?", "table": ["SJA07003"]}
+{"q": "Hver var þorskaflinn í september 2026?", "table": ["SJA01101", "SJA01102"]}
+{"q": "Hve miklum makríl var landað í Neskaupstað?", "table": ["SJA01101"]}
+{"q": "Hver var losun gróðurhúsalofttegunda á Íslandi árið 2024?", "table": ["UMH31101", "UMH31107"]}
+{"q": "Hve mikil losun gróðurhúsalofttegunda kemur frá flugi?", "table": ["UMH31108", "UMH31110", "UMH31118"]}
+{"q": "Hve mörg ökutæki eru skráð á Íslandi?", "table": ["SAM03105"]}
+{"q": "Hversu margar hjónavígslur voru árið 2019?", "table": ["MAN06100"]}
+{"q": "Hve margir nemendur eru í framhaldsskólum?", "table": ["SKO00003", "SKO00003a", "SKO00003b", "SKO00005"]}
+{"q": "Hve miklar launagreiðslur voru í byggingariðnaði í fyrra?", "table": ["TEK02001", "TEK02003"]}
+{"q": "Hve margar konur buðu sig fram í alþingiskosningunum 2024?", "table": ["KOS02108", "KOS02112"]}
+{"q": "How many people live in Iceland?", "table": ["MAN00101", "MAN10001"]}
+{"q": "What is the unemployment rate in Iceland?", "table": ["VIN00001", "VIN00002", "VIN00003", "VIN00910", "VIN00920"]}
+{"q": "How many hotel nights were there in July?", "table": ["SAM01102", "SAM01103", "SAM01201", "SAM01601"]}

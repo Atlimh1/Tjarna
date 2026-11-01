@@ -1,0 +1,27 @@
+{
+  "name": "hagstofan",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb"
+  },
+  "postCreateCommand": "python -m venv .venv && .venv/bin/pip install -q --upgrade pip && .venv/bin/pip install -q torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu && .venv/bin/pip install -q -r requirements.txt && .venv/bin/python -m icegrams.download && .venv/bin/python -m pytest -q tests",
+  "forwardPorts": [
+    8000
+  ],
+  "portsAttributes": {
+    "8000": {
+      "label": "Spurðu Hagstofuna (page, API, chat at /gradio)"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": ".venv/bin/python"
+      }
+    }
+  }
+}

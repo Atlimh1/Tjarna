@@ -1,0 +1,225 @@
+{"q": "Hvert var hlutfall fjölskyldna í lægstu eiginfjártíundinni sem vörðu yfir 40% af ráðstöfunartekjum í afborganir árið 2017?", "table": "SKU01005", "lang": "is", "style": "specific"}
+{"q": "Hversu stór hluti af tekjunum fer í að borga af lánum hjá venjulegum fjölskyldum?", "table": "SKU01005", "lang": "is", "style": "casual"}
+{"q": "Hvernig breyttist greiðslubyrði heimila af föstum greiðslum milli 2015 og 2018?", "table": "SKU01005", "lang": "is", "style": "variant"}
+{"q": "Hversu hátt hlutfall háskólamenntaðra bjó við þröngbýli árið 2016?", "table": "LIF03341", "lang": "is", "style": "specific"}
+{"q": "Búa margir í of litlu eða lélegu húsnæði á Íslandi?", "table": "LIF03341", "lang": "is", "style": "casual"}
+{"q": "Lélegt ástand húsnæðis hjá konum og körlum, samanburður 2008 og 2018", "table": "LIF03341", "lang": "is", "style": "variant"}
+{"q": "Hver var árstíðaleiðréttur hagvöxtur á Íslandi á öðrum ársfjórðungi 2023 miðað við sama tíma árið áður?", "table": "THJ01703", "lang": "is", "style": "specific"}
+{"q": "Hvernig gekk efnahagurinn á Íslandi miðað við Danmörku og Finnland í hruninu 2008?", "table": "THJ01703", "lang": "is", "style": "casual"}
+{"q": "Var meiri hagvöxtur í Bandaríkjunum eða Japan á fyrsta ársfjórðungi 2015?", "table": "THJ01703", "lang": "is", "style": "variant"}
+{"q": "Hversu margir sýningargestir sóttu sýningar áhugaleikfélaga leikárið 2018/2019?", "table": "MEN05103", "lang": "is", "style": "specific"}
+{"q": "Eru mörg áhugaleikhús starfandi úti á landi og hvað setja þau upp mikið af barnaleikritum?", "table": "MEN05103", "lang": "is", "style": "casual"}
+{"q": "How many amateur theatre companies were active in Iceland in the 1995/1996 season?", "table": "MEN05103", "lang": "en", "style": "english"}
+{"q": "Hver var leiðrétting vegna gengis á útflutningi vöru á þriðja ársfjórðungi 2003?", "table": "UTA05002", "lang": "is", "style": "specific"}
+{"q": "Hvernig er farið frá tölum um vöruviðskipti yfir í greiðslujöfnuðinn?", "table": "UTA05002", "lang": "is", "style": "casual"}
+{"q": "Útflutningur alls fob fyrir staðlabreytingu fyrsta ársfjórðung 2010", "table": "UTA05002", "lang": "is", "style": "variant"}
+{"q": "Hver var tekjuafgangur eða halli ríkissjóðs sem hlutfall af landsframleiðslu árið 2009?", "table": "THJ05211", "lang": "is", "style": "specific"}
+{"q": "Hvað eyðir ríkið miklu á hverju ári og er það rekið með tapi?", "table": "THJ05211", "lang": "is", "style": "casual"}
+{"q": "Hvernig hafa tekjur ríkissjóðs breyst frá 2015 til 2025?", "table": "THJ05211", "lang": "is", "style": "variant"}
+{"q": "Hversu mörg einkahlutafélög urðu gjaldþrota í Kópavogi árið 2023?", "table": "FYR03020", "lang": "is", "style": "specific"}
+{"q": "Hvað eru mörg ný fyrirtæki stofnuð í Reykjavík á ári?", "table": "FYR03020", "lang": "is", "style": "casual"}
+{"q": "Fjöldi nýskráðra félaga í Hafnarfirði og Garðabæ 2025, samanburður", "table": "FYR03020", "lang": "is", "style": "variant"}
+{"q": "Hver var velta í almennu virðisaukaskattsþrepi í tækni- og hugverkaiðnaði árið 2022?", "table": "FYR04112", "lang": "is", "style": "specific"}
+{"q": "Hvað veltu fyrirtækin í landinu miklu samkvæmt virðisaukaskattinum í fyrra?", "table": "FYR04112", "lang": "is", "style": "casual"}
+{"q": "What was the VAT-exempt export turnover of the business economy in Iceland in 2019?", "table": "FYR04112", "lang": "en", "style": "english"}
+{"q": "Hvert var atvinnuleysi meðal ungs fólks á aldrinum 20-24 ára árið 2010?", "table": "VIN01402", "lang": "is", "style": "specific"}
+{"q": "Hvað eru margir krakkar 16-19 ára með vinnu sem búa enn heima hjá mömmu og pabba?", "table": "VIN01402", "lang": "is", "style": "casual"}
+{"q": "Hlutfall ungmenna sem hvorki eru í vinnu né námi (NEET), konur á móti körlum 2021", "table": "VIN01402", "lang": "is", "style": "variant"}
+{"q": "Hver var útbreiðsla dagblaða á hverja 1.000 íbúa árið 1933?", "table": "MEN02102", "lang": "is", "style": "specific"}
+{"q": "Hversu mörg eintök af blöðum voru prentuð og dreift á dag hér áður fyrr?", "table": "MEN02102", "lang": "is", "style": "casual"}
+{"q": "Hvernig þróaðist útbreiðsla fríblaða miðað við seld blöð fram til 2010?", "table": "MEN02102", "lang": "is", "style": "variant"}
+{"q": "Hversu mörg ársverk voru í umhverfisverndandi starfsemi í framleiðslugreinum árið 2020?", "table": "UMH53031", "lang": "is", "style": "specific"}
+{"q": "Hvað vinna margir við græn störf á Íslandi?", "table": "UMH53031", "lang": "is", "style": "casual"}
+{"q": "Ársverk við fráveitumál og úrgangsmál, breyting frá 2014 til 2023", "table": "UMH53031", "lang": "is", "style": "variant"}
+{"q": "Hversu mikill koltvísýringur losnaði frá álframleiðslu á Íslandi árið 2018?", "table": "UMH31101", "lang": "is", "style": "specific"}
+{"q": "Hvað menga bílarnir á Íslandi mikið?", "table": "UMH31101", "lang": "is", "style": "casual"}
+{"q": "How much methane was emitted within Iceland in 2024 from fuel combustion?", "table": "UMH31101", "lang": "en", "style": "english"}
+{"q": "Hverjar voru rekstrartekjur fyrirtækja í einkennandi greinum ferðaþjónustu með 10-49 starfsmenn árið 2019?", "table": "FYR08001", "lang": "is", "style": "specific"}
+{"q": "Hvað eru mörg lítil fyrirtæki með einn eða engan starfsmann á Íslandi?", "table": "FYR08001", "lang": "is", "style": "casual"}
+{"q": "Vinnsluvirði á þáttaverði í viðskiptahagkerfinu 2024 eftir stærð fyrirtækja", "table": "FYR08001", "lang": "is", "style": "variant"}
+{"q": "Hversu margar einkareknar útvarpsstöðvar á landsvísu voru starfandi árið 1995?", "table": "MEN03102", "lang": "is", "style": "specific"}
+{"q": "Hvað voru margar útvarpsrásir hjá RÚV í gamla daga?", "table": "MEN03102", "lang": "is", "style": "casual"}
+{"q": "Fjöldi útsendra stunda á ári hjá útvarpsstöðvum, þróun frá 1985 til 2011", "table": "MEN03102", "lang": "is", "style": "variant"}
+{"q": "Hversu margar stundir unnu konur að meðaltali í fjarvinnu heima á fyrsta ársfjórðungi 2021?", "table": "VIN01505", "lang": "is", "style": "specific"}
+{"q": "Er fólk mikið að vinna heima eftir covid?", "table": "VIN01505", "lang": "is", "style": "casual"}
+{"q": "Meðalfjöldi unninna stunda hjá sjálfstætt starfandi sem vinna stundum heima, 2019 og 2025", "table": "VIN01505", "lang": "is", "style": "variant"}
+{"q": "Hversu hátt hlutfall heimila utan höfuðborgarsvæðisins bjó við efnislegan skort árið 2012?", "table": "LIF06112", "lang": "is", "style": "specific"}
+{"q": "Eru mörg heimili sem hafa ekki efni á helstu nauðsynjum?", "table": "LIF06112", "lang": "is", "style": "casual"}
+{"q": "What share of households in the capital region experienced material deprivation in 2023?", "table": "LIF06112", "lang": "en", "style": "english"}
+{"q": "Hversu margar gistinætur voru á hótelum á Austurlandi í júlí 2024?", "table": "SAM01201", "lang": "is", "style": "specific"}
+{"q": "Hvað gistu margir Bandaríkjamenn á hótelum hérna í fyrrasumar?", "table": "SAM01201", "lang": "is", "style": "casual"}
+{"q": "Gistinætur Íslendinga á Norðurlandi eystra, nýjustu tölur", "table": "SAM01201", "lang": "is", "style": "variant"}
+{"q": "Hversu margir fengu umönnunarbætur árið 2005?", "table": "HEI03102", "lang": "is", "style": "specific"}
+{"q": "Hvað fá margir mæðra- eða feðralaun frá ríkinu?", "table": "HEI03102", "lang": "is", "style": "casual"}
+{"q": "Bótagreiðslur vegna endurhæfingarlífeyris í milljónum króna 1994 og 2016", "table": "HEI03102", "lang": "is", "style": "variant"}
+{"q": "Hversu mikið af þorski var unnið á Vestfjörðum árið 2020?", "table": "SJA09123", "lang": "is", "style": "specific"}
+{"q": "Hvað er mikið verðmæti í ýsunni sem er landað fyrir austan?", "table": "SJA09123", "lang": "is", "style": "casual"}
+{"q": "Breyting á aflaverðmæti á Norðurlandi eystra frá 1995 til 2024", "table": "SJA09123", "lang": "is", "style": "variant"}
+{"q": "Hver var kosningaþátttaka kvenna í Suðurkjördæmi í alþingiskosningunum 2024?", "table": "KOS02101c", "lang": "is", "style": "specific"}
+{"q": "Kusu innflytjendur minna en aðrir í síðustu þingkosningum?", "table": "KOS02101c", "lang": "is", "style": "casual"}
+{"q": "What was voter turnout in Reykjavík North among people born in Iceland with both parents born abroad in the 2021 parliamentary election?", "table": "KOS02101c", "lang": "en", "style": "english"}
+{"q": "Hversu hátt hlutfall launþega á höfuðborgarsvæðinu var í stéttarfélagi árið 2015?", "table": "VIN01007", "lang": "is", "style": "specific"}
+{"q": "Eru flestir í verkalýðsfélagi á Íslandi?", "table": "VIN01007", "lang": "is", "style": "casual"}
+{"q": "Hlutfall launafólks utan stéttarfélaga eftir aldri, 16 til 24 ára á móti 55 til 74 ára", "table": "VIN01007", "lang": "is", "style": "variant"}
+{"q": "Hversu hátt hlutfall 18 ára stúlkna var í framhaldsskóla árið 2015?", "table": "SKO03108", "lang": "is", "style": "specific"}
+{"q": "Eru margir krakkar af Suðurnesjum sem hætta ekki í menntó eftir 16 ára aldur?", "table": "SKO03108", "lang": "is", "style": "casual"}
+{"q": "Skólasókn 17 ára á Vestfjörðum, breyting frá 2000 til 2025", "table": "SKO03108", "lang": "is", "style": "variant"}
+{"q": "Hver var vísitala neysluverðs í janúar 1985 á grunni 1981?", "table": "VIS01002", "lang": "is", "style": "specific"}
+{"q": "Hvað hækkaði verðlagið mikið á verðbólguárunum í kringum 1983?", "table": "VIS01002", "lang": "is", "style": "casual"}
+{"q": "Neysluverð án húsnæðis á grunni 1988, þróun", "table": "VIS01002", "lang": "is", "style": "variant"}
+{"q": "Hversu margir auðir seðlar voru í Hafnarfirði í sveitarstjórnarkosningunum 2010?", "table": "KOS03206", "lang": "is", "style": "specific"}
+{"q": "Hvað mættu margir á kjörstað í Kópavogi í bæjarstjórnarkosningunum 2010?", "table": "KOS03206", "lang": "is", "style": "casual"}
+{"q": "How many absentee votes were cast in Reykjavík in the 2010 municipal elections?", "table": "KOS03206", "lang": "en", "style": "english"}
+{"q": "Hverjar voru erlendar eignir bankakerfisins alls árið 2013?", "table": "PEN01104", "lang": "is", "style": "specific"}
+{"q": "Skulda bankarnir mikið í útlöndum eftir hrunið?", "table": "PEN01104", "lang": "is", "style": "casual"}
+{"q": "Innlend útlán og markaðsverðbréf bankanna 2010 og 2016, samanburður", "table": "PEN01104", "lang": "is", "style": "variant"}
+{"q": "Hversu mörg fyrirtæki voru skráð í kartöflurækt árið 2024?", "table": "FYR01001", "lang": "is", "style": "specific"}
+{"q": "Hvað eru mörg sameignarfélög til á Íslandi?", "table": "FYR01001", "lang": "is", "style": "casual"}
+{"q": "Fjöldi skráðra félaga alls, breyting frá 2008 til 2025", "table": "FYR01001", "lang": "is", "style": "variant"}
+{"q": "Hversu marga lítra af hreinum vínanda drakk hver íbúi 15 ára og eldri af bjór árið 2010?", "table": "HEI07202", "lang": "is", "style": "specific"}
+{"q": "Drekka Íslendingar meira í dag en áður fyrr?", "table": "HEI07202", "lang": "is", "style": "casual"}
+{"q": "Neysla á sterku víni á íbúa, 1980 á móti 2024", "table": "HEI07202", "lang": "is", "style": "variant"}
+{"q": "Hverjar voru auglýsingatekjur vefmiðla í milljónum króna árið 2020?", "table": "MID00102", "lang": "is", "style": "specific"}
+{"q": "Hvað fá sjónvarpsstöðvarnar mikið fyrir auglýsingar?", "table": "MID00102", "lang": "is", "style": "casual"}
+{"q": "What share of Icelandic media advertising revenue went to radio in 2005?", "table": "MID00102", "lang": "en", "style": "english"}
+{"q": "Hversu margir karlar á aldrinum 20-24 ára dóu árið 2020?", "table": "MAN05210", "lang": "is", "style": "specific"}
+{"q": "Hvað deyja margir á Íslandi á ári?", "table": "MAN05210", "lang": "is", "style": "casual"}
+{"q": "Ungbarnadauði á 1.000 íbúa, þróun frá 1900 til 2025", "table": "MAN05210", "lang": "is", "style": "variant"}
+{"q": "Hver voru útgjöld hins opinbera til utanríkisstjórnsýslu árið 1995?", "table": "THJ95144", "lang": "is", "style": "specific"}
+{"q": "Hvað eyddi ríkið miklu í þróunaraðstoð á tíunda áratugnum?", "table": "THJ95144", "lang": "is", "style": "casual"}
+{"q": "Útgjöld til almennrar opinberrar stjórnsýslu 1990 og 1998", "table": "THJ95144", "lang": "is", "style": "variant"}
+{"q": "Hversu mikil var losun koltvísýrings frá flugsamgöngum árið 2019?", "table": "UMH31110", "lang": "is", "style": "specific"}
+{"q": "Hvað menga heimilin mikið samanborið við fiskiskipin?", "table": "UMH31110", "lang": "is", "style": "casual"}
+{"q": "Losun metans frá landbúnaði og matvælaframleiðslu, nýjustu tölur", "table": "UMH31110", "lang": "is", "style": "variant"}
+{"q": "Hversu mörg almenn einkamál tóku 0-3 mánuði hjá héraðsdómum árið 2009?", "table": "DOM0404", "lang": "is", "style": "specific"}
+{"q": "Hvað tekur langan tíma að klára mál fyrir dómstólum?", "table": "DOM0404", "lang": "is", "style": "casual"}
+{"q": "What share of civil cases took more than three years to process in 2010?", "table": "DOM0404", "lang": "en", "style": "english"}
+{"q": "Hversu margir skólameistarar voru konur skólaárið 2016-2017?", "table": "SKO03307", "lang": "is", "style": "specific"}
+{"q": "Hvað vinna margir í menntaskólunum á landinu?", "table": "SKO03307", "lang": "is", "style": "casual"}
+{"q": "Stöðugildi starfsfólks við kennslu í iðn- og fjölbrautaskólum utan höfuðborgarsvæðisins 2020-2021", "table": "SKO03307", "lang": "is", "style": "variant"}
+{"q": "Hversu mörg býli voru á Suðurlandi árið 2010?", "table": "LAN1001", "lang": "is", "style": "specific"}
+{"q": "Eru margir bændur að rækta kartöflur fyrir norðan?", "table": "LAN1001", "lang": "is", "style": "casual"}
+{"q": "Kornrækt eftir landssvæðum 2010", "table": "LAN1001", "lang": "is", "style": "variant"}
+{"q": "Hversu hátt hlutfall kvenna notaði lyf sem læknir ávísaði árið 2015?", "table": "HER01311", "lang": "is", "style": "specific"}
+{"q": "Taka margir verkjalyf eða önnur lyf án lyfseðils?", "table": "HER01311", "lang": "is", "style": "casual"}
+{"q": "Lyfjanotkun í dreifbýli á móti höfuðborgarsvæðinu", "table": "HER01311", "lang": "is", "style": "variant"}
+{"q": "Hversu mörg leikskólabörn með erlent ríkisfang voru frá Austur-Evrópu árið 2019?", "table": "SKO01106", "lang": "is", "style": "specific"}
+{"q": "Eru mörg útlensk börn á leikskólum hér?", "table": "SKO01106", "lang": "is", "style": "casual"}
+{"q": "How many children with Nordic citizenship attended preschools in Iceland in 2005?", "table": "SKO01106", "lang": "en", "style": "english"}
+{"q": "Hver var kosningaþátttaka á Akranesi í forsetakosningunum 2024?", "table": "KOS07002", "lang": "is", "style": "specific"}
+{"q": "Mættu margir að kjósa forseta í Borgarbyggð árið 2016?", "table": "KOS07002", "lang": "is", "style": "casual"}
+{"q": "Fjöldi á kjörskrá í Norðvesturkjördæmi, forsetakosningar 2012 og 2020", "table": "KOS07002", "lang": "is", "style": "variant"}
+{"q": "Hver voru laun og launatengd gjöld heimilanna á fjórða ársfjórðungi 2022?", "table": "THJ06012", "lang": "is", "style": "specific"}
+{"q": "Hvað hafa heimilin í landinu mikið á milli handanna á hverjum ársfjórðungi?", "table": "THJ06012", "lang": "is", "style": "casual"}
+{"q": "Framleiðsla heimilageirans, þróun frá 2003 til 2026", "table": "THJ06012", "lang": "is", "style": "variant"}
+{"q": "Hversu margar sólskinsstundir voru í Reykjavík í júlí 2010?", "table": "UMH11165", "lang": "is", "style": "specific"}
+{"q": "Er sólríkara á Akureyri en í Reykjavík á sumrin?", "table": "UMH11165", "lang": "is", "style": "casual"}
+{"q": "Sólskin í maí á Akureyri, breyting frá 1950 til 2024", "table": "UMH11165", "lang": "is", "style": "variant"}
+{"q": "Hversu margar konur voru kjörnar í sveitarstjórn í Reykjavík árið 2006?", "table": "KOS03304", "lang": "is", "style": "specific"}
+{"q": "Hvað voru margir á lista hjá Sjálfstæðisflokknum í Kópavogi í bæjarstjórnarkosningunum 2006?", "table": "KOS03304", "lang": "is", "style": "casual"}
+{"q": "How many candidates did Samfylkingin field in Reykjavík in the 2006 local elections?", "table": "KOS03304", "lang": "en", "style": "english"}
+{"q": "Hversu margar dægurtónlistarplötur voru gefnar út árið 1995?", "table": "MEN08102", "lang": "is", "style": "specific"}
+{"q": "Hvað kom út mikið af djasstónlist á Íslandi á níunda áratugnum?", "table": "MEN08102", "lang": "is", "style": "casual"}
+{"q": "Hlutfall sígildrar tónlistar af útgefnum hljóðritum 1979 á móti 2012", "table": "MEN08102", "lang": "is", "style": "variant"}
+{"q": "Hversu hátt hlutfall innflytjenda var í stéttarfélagi árið 2014?", "table": "VIN01211", "lang": "is", "style": "specific"}
+{"q": "Eru útlendingar sem vinna hérna síður í verkalýðsfélagi en Íslendingar?", "table": "VIN01211", "lang": "is", "style": "casual"}
+{"q": "Stéttarfélagsaðild innlendra kvenna, þróun 2008-2017", "table": "VIN01211", "lang": "is", "style": "variant"}
+{"q": "Hver var heildarfjöldi vinnustunda á viku í fiskveiðum árið 2020?", "table": "VIN01108", "lang": "is", "style": "specific"}
+{"q": "Hvað vinna landsmenn marga tíma samtals í hverri viku?", "table": "VIN01108", "lang": "is", "style": "casual"}
+{"q": "Vinnustundir í landbúnaði utan höfuðborgarsvæðis 1991 og 2025", "table": "VIN01108", "lang": "is", "style": "variant"}
+{"q": "Hversu margar konur voru kjörnar á þing árið 1983?", "table": "KOS02054", "lang": "is", "style": "specific"}
+{"q": "Hvað eru þingmennirnir gamlir að meðaltali?", "table": "KOS02054", "lang": "is", "style": "casual"}
+{"q": "How many women were elected to the Icelandic parliament in 2024?", "table": "KOS02054", "lang": "en", "style": "english"}
+{"q": "Hverjir voru beinir skattar ríkissjóðs sem hlutfall af landsframleiðslu árið 1970?", "table": "THJ05991", "lang": "is", "style": "specific"}
+{"q": "Hvað eyddu sveitarfélögin miklu á árum áður?", "table": "THJ05991", "lang": "is", "style": "casual"}
+{"q": "Samneysla hins opinbera á verðlagi ársins 1998, 1950 á móti 1998", "table": "THJ05991", "lang": "is", "style": "variant"}
+{"q": "Hver voru meðalútgjöld heimila í dreifbýli til kjötkaupa á árunum 2002-2004?", "table": "VIS05302", "lang": "is", "style": "specific"}
+{"q": "Hvað eyðir venjuleg fjölskylda á höfuðborgarsvæðinu í mat á ári?", "table": "VIS05302", "lang": "is", "style": "casual"}
+{"q": "Hlutfall matar og drykkjarvara af neysluútgjöldum heimila, 2000-2002 og síðasta tímabil", "table": "VIS05302", "lang": "is", "style": "variant"}
+{"q": "Hvert var vinnsluvirði á grunnverði árið 2015?", "table": "THJ08422", "lang": "is", "style": "specific"}
+{"q": "Hvað framleiðir íslenska hagkerfið mikið virði á ári?", "table": "THJ08422", "lang": "is", "style": "casual"}
+{"q": "Vörutengdir skattar, breyting frá 1995 til 2025", "table": "THJ08422", "lang": "is", "style": "variant"}
+{"q": "Hvert var söluandvirði sölumynddiska á DVD frá Bretlandi árið 2006?", "table": "MEN09113", "lang": "is", "style": "specific"}
+{"q": "Hvað keyptu Íslendingar mikið af íslenskum myndum á spólu?", "table": "MEN09113", "lang": "is", "style": "casual"}
+{"q": "What was the total value of Blu-ray rental discs sold at publisher level in 2012?", "table": "MEN09113", "lang": "en", "style": "english"}
+{"q": "Hver var fjármunamyndun atvinnuvega í mannvirkjum á föstu verðlagi árið 2018?", "table": "THJ03106", "lang": "is", "style": "specific"}
+{"q": "Hvað keyptu fyrirtækin mikið af nýjum bílum og vélum árið 2007?", "table": "THJ03106", "lang": "is", "style": "casual"}
+{"q": "Fjárfesting í skipum og flugvélum, magnvísitala 2000-2025", "table": "THJ03106", "lang": "is", "style": "variant"}
+{"q": "Hver var mánaðarbreyting vísitölu byggingarkostnaðar í mars 2024?", "table": "VIS13303", "lang": "is", "style": "specific"}
+{"q": "Hvað hefur kostnaðurinn við að byggja hús hækkað mikið?", "table": "VIS13303", "lang": "is", "style": "casual"}
+{"q": "Vægi vinnu í byggingarvísitölunni, nýjustu tölur", "table": "VIS13303", "lang": "is", "style": "variant"}
+{"q": "Hversu hátt hlutfall heimila var með kapalsjónvarp árið 1995?", "table": "MEN04012", "lang": "is", "style": "specific"}
+{"q": "Voru margir með gervihnattadisk heima hjá sér í gamla daga?", "table": "MEN04012", "lang": "is", "style": "casual"}
+{"q": "Heimili með tvö eða fleiri sjónvarpstæki 1985/1986 á móti 2011", "table": "MEN04012", "lang": "is", "style": "variant"}
+{"q": "Hversu hátt hlutfall nýnema í bakkalárnámi sem hófu nám 2017 hafði útskrifast þremur árum síðar?", "table": "SKO04208a", "lang": "is", "style": "specific"}
+{"q": "Klára flestir BA- eða BS-gráðuna á réttum tíma?", "table": "SKO04208a", "lang": "is", "style": "casual"}
+{"q": "What was the dropout rate six years after enrolment for students at private universities who started in 2014?", "table": "SKO04208a", "lang": "en", "style": "english"}
+{"q": "Hver voru útgjöld hins opinbera til háskólastigsins í milljónum króna árið 1990?", "table": "THJ05612", "lang": "is", "style": "specific"}
+{"q": "Hvað setti ríkið mikinn pening í skólana á níunda áratugnum?", "table": "THJ05612", "lang": "is", "style": "casual"}
+{"q": "Námslán sem hlutfall af landsframleiðslu 1980-1998", "table": "THJ05612", "lang": "is", "style": "variant"}
+{"q": "Hvað er nafnið Aron algengt meðal stráka á aldrinum 10-14 ára?", "table": "MAN11105", "lang": "is", "style": "specific"}
+{"q": "Hvaða strákanöfn eru vinsælust hjá yngstu krökkunum?", "table": "MAN11105", "lang": "is", "style": "casual"}
+{"q": "Röð nafnsins Atli eftir aldursbilum", "table": "MAN11105", "lang": "is", "style": "variant"}
+{"q": "Hversu margar sýningar fór Þjóðleikhúsið með út á land leikárið 2005/2006?", "table": "MEN05116", "lang": "is", "style": "specific"}
+{"q": "Koma atvinnuleikhóparnir oft í heimsókn út á land með barnasýningar?", "table": "MEN05116", "lang": "is", "style": "casual"}
+{"q": "Gestir á leikferðum innanlands, breyting frá 1996/1997 til 2019/2020", "table": "MEN05116", "lang": "is", "style": "variant"}
+{"q": "Hver var heildarlosun gróðurhúsalofttegunda í CO2-ígildum frá orkuframleiðslu árið 2015?", "table": "UMH31107", "lang": "is", "style": "specific"}
+{"q": "Hvað losar Ísland mikið af gróðurhúsalofttegundum í heildina?", "table": "UMH31107", "lang": "is", "style": "casual"}
+{"q": "How much did greenhouse gas emissions from transport in Iceland change between 1990 and 2024?", "table": "UMH31107", "lang": "en", "style": "english"}
+{"q": "Hversu margir karlar á aldrinum 25 til 34 ára voru með háskólamenntun árið 2022?", "table": "SKO00001", "lang": "is", "style": "specific"}
+{"q": "Eru margir sem hafa bara klárað grunnskóla?", "table": "SKO00001", "lang": "is", "style": "casual"}
+{"q": "Menntunarstaða kvenna 25 til 64 ára, 2003 og 2024", "table": "SKO00001", "lang": "is", "style": "variant"}
+{"q": "Hver var atkvæðatala Ásmundar Einars Daðasonar í alþingiskosningunum 2017?", "table": "KOS02120a", "lang": "is", "style": "specific"}
+{"q": "Hverjir komust á þing fyrir Norðvesturkjördæmi í kosningunum haustið 2017?", "table": "KOS02120a", "lang": "is", "style": "casual"}
+{"q": "Útkomutala kjörinna þingmanna í Norðvesturkjördæmi 2017", "table": "KOS02120a", "lang": "is", "style": "variant"}
+{"q": "Hversu margir kennarar í menntaskólum voru án kennsluréttinda skólaárið 2014-2015?", "table": "SKO03305", "lang": "is", "style": "specific"}
+{"q": "Eru allir framhaldsskólakennarar með réttindi?", "table": "SKO03305", "lang": "is", "style": "casual"}
+{"q": "Hlutfall kvenna meðal kennara með kennsluréttindi á höfuðborgarsvæðinu 2011-2012 og 2020-2021", "table": "SKO03305", "lang": "is", "style": "variant"}
+{"q": "Hversu margar konur voru í doktorsnámi árið 2020?", "table": "SKO04103", "lang": "is", "style": "specific"}
+{"q": "Hvað eru margir í háskóla að læra verkfræði?", "table": "SKO04103", "lang": "is", "style": "casual"}
+{"q": "How many students were enrolled in master's degree programmes in social sciences, business and law in Iceland in 2015?", "table": "SKO04103", "lang": "en", "style": "english"}
+{"q": "Hversu hátt hlutfall fólks í lægsta tekjufimmtungi taldi sig við góða heilsu árið 2012?", "table": "HEI20003", "lang": "is", "style": "specific"}
+{"q": "Er fólk með hærri laun hraustara en aðrir?", "table": "HEI20003", "lang": "is", "style": "casual"}
+{"q": "Góð heilsa kvenna á móti körlum, 2004 og 2018", "table": "HEI20003", "lang": "is", "style": "variant"}
+{"q": "Hversu margir kjósendur voru á kjörskrá í Suðvesturkjördæmi árið 2021?", "table": "KOS02100", "lang": "is", "style": "specific"}
+{"q": "Hvað máttu margir kjósa í síðustu alþingiskosningum?", "table": "KOS02100", "lang": "is", "style": "casual"}
+{"q": "Kjósendur með lögheimili erlendis, breyting frá 2013 til 2024", "table": "KOS02100", "lang": "is", "style": "variant"}
+{"q": "Hvert var verðmæti þorsks sem seldur var á fiskmarkaði í mars 2025?", "table": "SJA02202", "lang": "is", "style": "specific"}
+{"q": "Hvað veiddist mikið af ýsu í janúar á þessu ári?", "table": "SJA02202", "lang": "is", "style": "casual"}
+{"q": "Afli sem fór í gáma til útflutnings, nýjustu tölur", "table": "SJA02202", "lang": "is", "style": "variant"}
+{"q": "Hversu margir karlar heita Guðmundur sem fyrsta eiginnafni?", "table": "MAN11101", "lang": "is", "style": "specific"}
+{"q": "Hvað er algengasta strákanafnið á Íslandi?", "table": "MAN11101", "lang": "is", "style": "casual"}
+{"q": "How many men in Iceland were named Magnús at the start of 2023?", "table": "MAN11101", "lang": "en", "style": "english"}
+{"q": "Hver var meðalmannfjöldi kvenna árið 1950?", "table": "MAN08000", "lang": "is", "style": "specific"}
+{"q": "Hvað bjuggu margir á Íslandi árið 1900?", "table": "MAN08000", "lang": "is", "style": "casual"}
+{"q": "Meðalfjöldi 5 ára barna, 2000 á móti 2025", "table": "MAN08000", "lang": "is", "style": "variant"}
+{"q": "Hversu margir sérfræðingar voru starfandi á höfuðborgarsvæðinu árið 2024?", "table": "VIN01101", "lang": "is", "style": "specific"}
+{"q": "Eru margir bændur og sjómenn ennþá að vinna úti á landi?", "table": "VIN01101", "lang": "is", "style": "casual"}
+{"q": "Fjöldi kvenna í stjórnendastöðum, breyting frá 1991 til 2025", "table": "VIN01101", "lang": "is", "style": "variant"}
+{"q": "Hvert var atkvæðahlutfall Sjálfstæðisflokksins í borgarstjórnarkosningunum í Reykjavík 1958?", "table": "KOS03107", "lang": "is", "style": "specific"}
+{"q": "Hvað fékk Framsókn marga borgarfulltrúa í Reykjavík síðast?", "table": "KOS03107", "lang": "is", "style": "casual"}
+{"q": "Gild atkvæði í borgarstjórnarkosningum 1930 og 2022", "table": "KOS03107", "lang": "is", "style": "variant"}
+{"q": "Hversu mörg tonn af áli voru framleidd í mars 2015?", "table": "THJ00111", "lang": "is", "style": "specific"}
+{"q": "Hvað borðuðu Íslendingar mikið lambakjöt í desember 2020?", "table": "THJ00111", "lang": "is", "style": "casual"}
+{"q": "How much milk was delivered to dairies in Iceland in June 2010?", "table": "THJ00111", "lang": "en", "style": "english"}
+{"q": "Hversu mörg fyrirtæki í úrtaki sjávarútvegsins voru með neikvæða verga hlutdeild undir -10% árið 2009?", "table": "SJA08106", "lang": "is", "style": "specific"}
+{"q": "Gengur útgerðunum almennt vel eða eru margar reknar með tapi?", "table": "SJA08106", "lang": "is", "style": "casual"}
+{"q": "Eiginfjárhlutfall sjávarútvegsfyrirtækja eftir afkomubilum 2024", "table": "SJA08106", "lang": "is", "style": "variant"}
+{"q": "Hversu hátt hlutfall heimila í fjölbýli með 10 eða fleiri íbúðum kvartaði undan hávaða árið 2014?", "table": "LIF03354", "lang": "is", "style": "specific"}
+{"q": "Er mikið um glæpi í hverfinu hjá fólki sem býr í raðhúsum?", "table": "LIF03354", "lang": "is", "style": "casual"}
+{"q": "Mengun og óhreinindi í nágrenni einbýlishúsa, 2004 og 2018", "table": "LIF03354", "lang": "is", "style": "variant"}
+{"q": "Hversu margir frambjóðendur Pírata voru konur í sveitarstjórnarkosningunum 2022?", "table": "KOS03315", "lang": "is", "style": "specific"}
+{"q": "Hvað buðu margar konur sig fram í bæjarstjórnarkosningunum 2018?", "table": "KOS03315", "lang": "is", "style": "casual"}
+{"q": "Fjöldi framboðslista Framsóknarflokksins 2006 og 2022", "table": "KOS03315", "lang": "is", "style": "variant"}
+{"q": "Hversu mörg kynferðisbrot voru skráð árið 2010?", "table": "DOM0501", "lang": "is", "style": "specific"}
+{"q": "Er mikið um innbrot og þjófnaði úti á landi miðað við í bænum?", "table": "DOM0501", "lang": "is", "style": "casual"}
+{"q": "How many recorded offences per 10,000 inhabitants were there in Iceland in 2015?", "table": "DOM0501", "lang": "en", "style": "english"}
+{"q": "Hver var mánaðarbreyting á verði brauðs og bakarísvara í júní 2026?", "table": "VIS01300", "lang": "is", "style": "specific"}
+{"q": "Hvað hefur matarkarfan hækkað mikið síðasta mánuðinn?", "table": "VIS01300", "lang": "is", "style": "casual"}
+{"q": "Vægi matar og óáfengra drykkja í neysluvísitölunni 2025", "table": "VIS01300", "lang": "is", "style": "variant"}
+{"q": "Hversu margir einstaklingar fengu atvinnuleysisgreiðslur í janúar 2021?", "table": "TEK02011", "lang": "is", "style": "specific"}
+{"q": "Hvað fá ungir krakkar 15 til 19 ára borgað í laun á mánuði samtals?", "table": "TEK02011", "lang": "is", "style": "casual"}
+{"q": "Fæðingarorlofsgreiðslur til karla, nýjustu tölur", "table": "TEK02011", "lang": "is", "style": "variant"}
+{"q": "Hversu mikil endurnýjanleg orka var notuð í framleiðslu árið 2020?", "table": "UMH40110", "lang": "is", "style": "specific"}
+{"q": "Nota heimilin mest græna orku eða olíu og bensín?", "table": "UMH40110", "lang": "is", "style": "casual"}
+{"q": "Óendurnýjanlegir orkugjafar hjá atvinnugreinum, þróun 2014-2024", "table": "UMH40110", "lang": "is", "style": "variant"}

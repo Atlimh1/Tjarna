@@ -1,0 +1,3579 @@
+[
+ {
+  "id": "FYR06110",
+  "title": "Stjórnarmenn eftir rekstrarformi, stærð fyrirtækja og fjölda stjórnarmanna 2008-2025",
+  "folder": "Atvinnuvegir › Fyrirtæki › Skráð fyrirtæki › Stjórnir fyrirtækja",
+  "variables": [
+   {
+    "name": "Rekstrarform",
+    "n_values": 3,
+    "examples": [
+     "D1 Almenn hlutafélög",
+     "E1 Einkahlutafélög",
+     "Önnur rekstrarform"
+    ]
+   },
+   {
+    "name": "Fjöldi stjórnarmanna",
+    "n_values": 3,
+    "examples": [
+     "2 stjórnarmenn",
+     "3 stjórnarmenn",
+     "4 eða fleiri stjórnarmenn"
+    ]
+   },
+   {
+    "name": "Stærð",
+    "n_values": 2,
+    "examples": [
+     "<50 launamenn",
+     ">=50 launamenn"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 18,
+    "examples": [
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015"
+    ],
+    "period": "2008 – 2025"
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Fjöldi",
+     "Hlutfall (%)"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Karlar",
+     "Konur",
+     "Kynsegin/annað"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS03103",
+  "title": "Úrslit í hlutbundnum sveitarstjórnarkosningum 1974-2022",
+  "folder": "Ibuar › Kosningar › Sveitarstjórnarkosningar › Sveitarstjórnarkosningar - yfirlit",
+  "variables": [
+   {
+    "name": "Einingar",
+    "n_values": 6,
+    "examples": [
+     "Gild atkvæði",
+     "Hlutfall af gildum atkvæðum",
+     "% af gildum atkvæðum í sveitarfélögum þar sem listi var borinn fram",
+     "Kjörnir fulltrúar",
+     "Karlar kjörnir fulltrúar",
+     "Konur kjörnar fulltrúar"
+    ]
+   },
+   {
+    "name": "Sveitarfélög",
+    "n_values": 5,
+    "examples": [
+     "Allt landið",
+     "Höfuðborgarsvæði",
+     "Önnur sveitarfélög með 1.000 íbúa og fleiri",
+     "Sveitarfélög með 300-999 íbúa",
+     "Sveitarfélög með 299 íbúa og færri"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 13,
+    "examples": [
+     "1974",
+     "1978",
+     "1982",
+     "1986",
+     "1990",
+     "1994",
+     "1998",
+     "2002"
+    ]
+   },
+   {
+    "name": "Stjórnmálaflokkar",
+    "n_values": 17,
+    "examples": [
+     "Alls",
+     "Alþýðuflokkur A",
+     "Framsóknarflokkur B",
+     "Viðreisn C",
+     "Sjálfstæðisflokkur D",
+     "Frjálslyndi flokkurinn F",
+     "Flokkur fólksins F",
+     "Miðflokkurinn M"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "HER01114",
+  "title": "Tíðni óhóflegrar drykkju eftir kyni, aldri og búsetu",
+  "folder": "Samfelag › Heilbrigðismál › Heilsufarsrannsókn › Heilsutengd hegðun",
+  "variables": [
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Allir",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Breytur",
+    "n_values": 14,
+    "examples": [
+     "Allir",
+     "15-19 ára",
+     "20-24 ára",
+     "15-24 ára",
+     "25-29 ára",
+     "30-34 ára",
+     "25-34 ára",
+     "35-44 ára"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Hlutfall (%)",
+     "95% öryggisbil (+/-)"
+    ]
+   },
+   {
+    "name": "Tíðni",
+    "n_values": 4,
+    "examples": [
+     "Í hverri viku",
+     "Í hverjum mánuði",
+     "Sjaldnar en mánaðarlega",
+     "Ekki undanfarna 12 mánuði"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN02116",
+  "title": "Hlutfall heimila með áskrift að dagblöðum 1995-2009",
+  "folder": "Samfelag › Miðlun › Fjölmiðlar › Blöð",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 11,
+    "examples": [
+     "1995",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005",
+     "2006"
+    ]
+   },
+   {
+    "name": "Áskriftir",
+    "n_values": 6,
+    "examples": [
+     "Alls",
+     "Áskrift að dagblaði",
+     "Að einu dagblaði",
+     "Að tveimur dagblöðum",
+     "Að þremur dagblöðum eða fleiri",
+     "Ekki áskrifandi"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN10101",
+  "title": "Starfandi við menningu eftir kyni og aldri 2003-2025",
+  "folder": "Samfelag › Menning › Hagrænir mælikvarðar › Starfandi í menningu - vinnumarkaðsrannsókn ",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 23,
+    "examples": [
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010"
+    ],
+    "period": "2003 – 2025"
+   },
+   {
+    "name": "Flokkar",
+    "n_values": 3,
+    "examples": [
+     "Alls starfandi",
+     "Starfandi í öðru",
+     "Starfandi í menningu"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Aldur",
+    "n_values": 4,
+    "examples": [
+     "Alls 16-74 ára",
+     "16-24 ára",
+     "25-54 ára",
+     "55-74 ára"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN04011",
+  "title": "Mánaðarlegt afnotagjald sjónvarps 1967-2008 og mánaðaráskrift að áskriftarsjónvarpi 1987-2011",
+  "folder": "Samfelag › Miðlun › Fjölmiðlar › Sjónvarp",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 45,
+    "examples": [
+     "1967",
+     "1968",
+     "1969",
+     "1970",
+     "1971",
+     "1972",
+     "1973",
+     "1974"
+    ]
+   },
+   {
+    "name": "Endurvarp",
+    "n_values": 7,
+    "examples": [
+     "Ríkisútvarpið - Sjónvarp, svart-hvít tæki",
+     "Ríkisútvarpið - Sjónvarp, littæki",
+     "Áskriftarstöðvar, Stöð 2",
+     "Áskriftarstöðvar, Stöð 2 Sport",
+     "Áskriftarstöðvar, Stöð 2 bíó",
+     "Endurvarp, Fjölvarp/Digital Ísland",
+     "Endurvarp, Breiðvarp/Skjár heimur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS03306",
+  "title": "Frambjóðendur og kjörnir fulltrúar í hlutbundnum kosningum eftir sveitarfélögum 2014",
+  "folder": "Ibuar › Kosningar › Sveitarstjórnarkosningar › Sveitarstjórnarkosningar - frambjóðendur",
+  "variables": [
+   {
+    "name": "Sveitarfélag",
+    "n_values": 240,
+    "examples": [
+     "Reykjavík  ",
+     "Reykjavík B Framsókn og flugvallarvinir",
+     "Reykjavík D Sjálfstæðisflokkur",
+     "Reykjavík R Alþýðufylkingin",
+     "Reykjavík S Samfylkingin",
+     "Reykjavík T Dögun",
+     "Reykjavík V Vinstrihreyfingin 0 grænt framboð",
+     "Reykjavík Þ Píratar"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Frambjóðendur",
+     "Fulltrúar kjörnir"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "LAN10301",
+  "title": "Laxar veiddir á stöng eftir landsvæðum og völdum laxveiðiám 1998-2022",
+  "folder": "Atvinnuvegir › Landbúnaður › Veiði",
+  "variables": [
+   {
+    "name": "Laxveiðiá",
+    "n_values": 53,
+    "examples": [
+     "Suðvesturland",
+     "Elliðaár",
+     "Úlfarsá (Korpa)",
+     "Leirvogsá",
+     "Laxá í Kjós",
+     "Brynjudalsá",
+     "Vesturland",
+     "Laxá í Leirársveit"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 25,
+    "examples": [
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005"
+    ],
+    "period": "1998 – 2022"
+   },
+   {
+    "name": "Atriði",
+    "n_values": 5,
+    "examples": [
+     "Fjöldi laxa",
+     "Fjöldi laxa sleppt",
+     "Afli, fjöldi",
+     "Þyngd, kg",
+     "Meðalþyngd, kg"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "VIN01105",
+  "title": "Starfandi í aðalstarfi eftir atvinnugreinum (bálkar), kyni og búsetu 1991-2025",
+  "folder": "Samfelag › Vinnumarkaður › Vinnumarkaðsrannsókn › Vinnumarkaðsrannsókn - árstölur",
+  "variables": [
+   {
+    "name": "Kyn og landsvæði",
+    "n_values": 5,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur",
+     "Höfuðborgarsvæði",
+     "Utan höfuðborgarsvæðis"
+    ]
+   },
+   {
+    "name": "Atvinnigrein (aðal- og aukastarf)",
+    "n_values": 37,
+    "examples": [
+     "Heildarfjöldi starfandi",
+     "A - Landbúnaður, skógrækt og fiskveiðar",
+     "A: 1 - Landbúnaður",
+     "A: 3 - Fiskveiðar",
+     "B-C - Framleiðsla og námugröftur",
+     "B - Námugröftur og vinnsla hráefna úr jörðu",
+     "C - Framleiðsla",
+     "C: 10-12 - Matvæla- og drykkjavöruiðnaður; tóbaksiðnaður"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 35,
+    "examples": [
+     "1991",
+     "1992",
+     "1993",
+     "1994",
+     "1995",
+     "1996",
+     "1997",
+     "1998"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Fjöldi",
+     "95% Öryggisbil"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "THJ05811",
+  "title": "Fjárhagur hins opinbera eftir ársfjórðungum 2002-2026",
+  "folder": "Efnahagur › Fjármál hins opinbera › Hið opinbera › Ársfjórðungsuppgjör hins opinbera",
+  "variables": [
+   {
+    "name": "Aðili",
+    "n_values": 4,
+    "examples": [
+     "Hið opinbera",
+     "Ríkissjóður",
+     "Sveitarfélög",
+     "Almannatryggingar"
+    ]
+   },
+   {
+    "name": "Skipting",
+    "n_values": 6,
+    "examples": [
+     "1. Heildartekjur",
+     "2. Heildarútgjöld",
+     "  2.1  þar af fjárfesting",
+     "3. Tekjujöfnuður (3. =1. - 2.)",
+     "4. Tekjujöfnuður, % af tekjum",
+     "5. Tekjujöfnuður, % af landsframleiðslu ársfjórðungs"
+    ]
+   },
+   {
+    "name": "Ársfjórðungur",
+    "n_values": 98,
+    "examples": [
+     "2002Á1",
+     "2002Á2",
+     "2002Á3",
+     "2002Á4",
+     "2003Á1",
+     "2003Á2",
+     "2003Á3",
+     "2003Á4"
+    ],
+    "period": "2002Á1 – 2026Á2"
+   }
+  ]
+ },
+ {
+  "id": "FYR09005",
+  "title": "Hagvísar um lýðfræði fyrirtækja sundurliðaðir eftir atvinnugreinum og fjölda starfsmanna í fyrirtækjum 2003-",
+  "folder": "Atvinnuvegir › Fyrirtæki › Lýðfræði fyrirtækja",
+  "variables": [
+   {
+    "name": "Atvinnugreinar",
+    "n_values": 19,
+    "examples": [
+     "Viðskiptahagkerfið að undanskilinni fjármála- og vátryggingastarfsemi (ÍSAT nr. 03-63, 68-82, 95-96)",
+     "Sjávarútvegur (ÍSAT nr. 031, 102)",
+     "Matvælaframleiðsla, önnur en fiskvinnsla (ÍSAT nr. 101, 103-108)",
+     "Framleiðsla án fiskvinnslu (ÍSAT nr. 10-33 án 102)",
+     "Meðal- og hátækniframleiðsla (ÍSAT nr. 20, 254, 26-30, 325)",
+     "Tækni- og hugverkaiðnaður (ÍSAT nr. 20, 254, 26-30, 325, 53, 58, 60-63, 72)",
+     "Hátækniþjónusta (ÍSAT nr. 53, 58, 60-63, 72)",
+     "Upplýsinga- og dagskrármiðlun (ÍSAT nr. 581, 59-60, 639)"
+    ]
+   },
+   {
+    "name": "Fjöldi starfsmanna",
+    "n_values": 6,
+    "examples": [
+     "Alls",
+     "0",
+     "1",
+     "2-4",
+     "5-9",
+     "10+"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 18,
+    "examples": [
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010"
+    ],
+    "period": "2003 – 2020"
+   },
+   {
+    "name": "Lýðfræðilegir stuðlar",
+    "n_values": 11,
+    "examples": [
+     "Hlutfall fjögurra og fimm ára gamalla fyrirtækja í örum vexti, mælt í fjölgun launþega",
+     "Hlutfall fjögurra og fimm ára gamalla fyrirtækja í örum vexti, mælt í rekstrartekjum",
+     "Hlutfall fyrirtækja í örum vexti, mælt í fjölgun launþega",
+     "Hlutfall fyrirtækja í örum vexti, mælt í rekstrartekjum",
+     "Hlutfall fyrirtækja sem sem hættu starfsemi á árinu",
+     "Hlutfall starfa í fyrirtækjum sem hættu starfsemi á árinu",
+     "Hlutfall starfa í fyrirtækjum sem hófu starfsemi á árinu",
+     "Hlutfall fyrirtækja sem sem hófu starfsemi á árinu"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN04002",
+  "title": "Sjónvarpsstöðvar og útsendingartími sjónvarps 1986-2011",
+  "folder": "Samfelag › Miðlun › Fjölmiðlar › Sjónvarp",
+  "variables": [
+   {
+    "name": "Sjónvarp",
+    "n_values": 2,
+    "examples": [
+     "Sjónvarpsstöðvar",
+     "Útsendingartími sjónvarps"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 26,
+    "examples": [
+     "1986",
+     "1987",
+     "1988",
+     "1989",
+     "1990",
+     "1991",
+     "1992",
+     "1993"
+    ]
+   },
+   {
+    "name": "Stöðvar",
+    "n_values": 7,
+    "examples": [
+     "Stundir á ári",
+     "Stöðvar alls",
+     "Ríkisútvarpið - Sjónvarp",
+     "Einkastöðvar alls",
+     "Einkastöðvar á landsvísu",
+     "Svæðisbundnar einkastöðvar",
+     "Staðbundnar einkastöðvar"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "PEN01105",
+  "title": "Innlán og útlán innlánsstofnana eftir tegundum 2010-2016",
+  "folder": "Efnahagur › Þjóðhagsreikningar › Fjármálareikningar › Peningamál",
+  "variables": [
+   {
+    "name": "Skipting",
+    "n_values": 55,
+    "examples": [
+     "Innlendar eignir, alls",
+     "Sjóður og innstæður í Seðlabanka",
+     "Innstæður í innlendum innlánsstofnunum",
+     "Innlend útlán og markaðsverðbréf",
+     "Útlán",
+     "Greiddar óinnleystar ábyrgðir",
+     "Yfirdráttarlán",
+     "Víxlar"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 7,
+    "examples": [
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016"
+    ],
+    "period": "2010 – 2016"
+   }
+  ]
+ },
+ {
+  "id": "THJ05371",
+  "title": "Fjárfesting sveitarfélaga eftir málaflokkum í mestri sundurliðun 1998-2025",
+  "folder": "Efnahagur › Fjármál hins opinbera › Fjármál sveitarfélaga",
+  "variables": [
+   {
+    "name": "Málaflokkur",
+    "n_values": 41,
+    "examples": [
+     "01 Almenn opinber þjónusta",
+     "0111 Æðsta stjórnsýsla og löggjafarvald",
+     "0160 Almenn opinber þjónusta, ótalin annars staðar",
+     "02 Varnarmál",
+     "03 Löggæsla, réttargæsla og öryggismál",
+     "0320 Brunavarnir",
+     "0360 Löggæsla, réttargæsla og öryggismál, ótalin annars staðar",
+     "04 Efnahags- og atvinnumál"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 28,
+    "examples": [
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005"
+    ],
+    "period": "1998 – 2025"
+   }
+  ]
+ },
+ {
+  "id": "THJ05616",
+  "title": "Fræðsluútgjöld einkaaðila 1998-2025",
+  "folder": "Efnahagur › Fjármál hins opinbera › Fræðslumál › Útgjöld til fræðslumála",
+  "variables": [
+   {
+    "name": "Eining",
+    "n_values": 4,
+    "examples": [
+     "Í milljónum króna",
+     "Hlutfall af vergri landsframleiðslu",
+     "Innbyrðis hlutdeild",
+     "Fræðsluútgjöld staðvirt á mann"
+    ]
+   },
+   {
+    "name": "Skipting",
+    "n_values": 9,
+    "examples": [
+     "1 Leikskóla- og barnaskólastig",
+     "11 Leikskólastig",
+     "12 Barnaskólastig",
+     "2 Unglinga- og framhaldsskólastig",
+     "21 Unglingastig",
+     "22 Framhaldsskólastig",
+     "4 Háskólastig",
+     "8 Fræðslumál, ótalin annars staðar"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 28,
+    "examples": [
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005"
+    ],
+    "period": "1998 – 2025"
+   }
+  ]
+ },
+ {
+  "id": "SKO04125",
+  "title": "Endurskráðir nemar á háskólastigi og doktorsstigi eftir stigi, kyni og aldri 1997-2010",
+  "folder": "Samfelag › Menntun › Háskóla- og doktorsstig › Nemendur",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 14,
+    "examples": [
+     "1997",
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004"
+    ]
+   },
+   {
+    "name": "Skólastig",
+    "n_values": 4,
+    "examples": [
+     "Endurskráðir nemar á háskóla- og doktorsstigi (5 og 6)",
+     "Fræðilegt háskólanám (5A)",
+     "Starfsmiðað háskólanám (5B)",
+     "Doktorsstig (6)"
+    ]
+   },
+   {
+    "name": "Almenn svið",
+    "n_values": 9,
+    "examples": [
+     "Alls",
+     "Menntun",
+     "Hugvísindi og listir",
+     "Félagsvísindi, viðskipti og lögfræði",
+     "Raunvísindi, stærðfræði og tölvunarfræði",
+     "Verkfræði, framleiðsla og mannvirkjagerð",
+     "Landbúnaður og dýralækningar",
+     "Heilbrigði og velferð"
+    ]
+   },
+   {
+    "name": "Landsvæði",
+    "n_values": 11,
+    "examples": [
+     "Alls",
+     "Reykjavík",
+     "Höfuðborgarsvæði utan Reykjavíkur",
+     "Suðurnes",
+     "Vesturland",
+     "Vestfirðir",
+     "Norðurland vestra",
+     "Norðurland eystra"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Aldursflokkar",
+    "n_values": 13,
+    "examples": [
+     "Alls",
+     "21 árs og yngri",
+     "22 ára",
+     "23 ára",
+     "24 ára",
+     "25 ára",
+     "26 ára",
+     "27 ára"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS02053",
+  "title": "Frambjóðendur og kjörnir þingmenn eftir kyni, meðalaldri og kjördæmi 2003-2024",
+  "folder": "Ibuar › Kosningar › Alþingiskosningar › Alþingiskosningar - kjörnir þingmenn",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 8,
+    "examples": [
+     "2003",
+     "2007",
+     "2009",
+     "2013",
+     "2016",
+     "2017",
+     "2021",
+     "2024"
+    ]
+   },
+   {
+    "name": "Frambjóðendur/þingmenn",
+    "n_values": 4,
+    "examples": [
+     "Frambjóðendur",
+     "Þingmenn og varaþingmenn",
+     "Alþingismenn",
+     "Varaþingmenn"
+    ]
+   },
+   {
+    "name": "Kjördæmi",
+    "n_values": 7,
+    "examples": [
+     "Alls",
+     "Norðvesturkjördæmi",
+     "Norðausturkjördæmi",
+     "Suðurkjördæmi",
+     "Suðvesturkjördæmi",
+     "Reykjavíkurkjördæmi suður",
+     "Reykjavíkurkjördæmi norður"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 3,
+    "examples": [
+     "Fjöldi",
+     "Hlutfall",
+     "Meðalaldur"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SKO00003b",
+  "title": "Nemendur ofan grunnskóla eftir skólum, lögheimili, kennsluformi og kyni 1997-2025",
+  "folder": "Samfelag › Menntun › Yfirlit › Yfirlit",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 29,
+    "examples": [
+     "1997",
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004"
+    ],
+    "period": "1997 – 2025"
+   },
+   {
+    "name": "Skóli",
+    "n_values": 138,
+    "examples": [
+     "Alls",
+     "Allegro, Suzukitónlistarskólinn",
+     "Beauty Academy",
+     "Borgarholtsskóli",
+     "Bændaskólinn á Hvanneyri",
+     "Danslistarskóli JSB",
+     "Endurmenntun Háskóla Íslands",
+     "Fisktækniskóli Íslands"
+    ]
+   },
+   {
+    "name": "Lögheimili nemenda",
+    "n_values": 11,
+    "examples": [
+     "Alls",
+     "Reykjavík",
+     "Höfuðborgarsvæði utan Reykjavíkur",
+     "Suðurnes",
+     "Vesturland",
+     "Vestfirðir",
+     "Norðurland vestra",
+     "Norðurland eystra"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Kennsluform",
+    "n_values": 4,
+    "examples": [
+     "Alls",
+     "Dagskóli",
+     "Kvöldskóli",
+     "Fjarnám"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS02003",
+  "title": "Kosningaþátttaka í þjóðaratkvæðagreiðslum 1918-2012",
+  "folder": "Ibuar › Kosningar › Yfirlit kosninga",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 6,
+    "examples": [
+     "1918, 19. október",
+     "1933, 21. október",
+     "1944, 20.-23. maí",
+     "2010, 6. mars",
+     "2011, 9. apríl",
+     "2012, 20. október"
+    ]
+   },
+   {
+    "name": "Skipting",
+    "n_values": 4,
+    "examples": [
+     "Kjósendur á kjörskrá",
+     "Kjósendur af íbúum alls, %",
+     "Greidd atkvæði",
+     "Kosningaþátttaka, %"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS02122",
+  "title": "Úrslit alþingiskosninga eftir kjördæmum 2003-2009",
+  "folder": "Ibuar › Kosningar › Alþingiskosningar › Alþingiskosningar - úrslit kosninga",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 3,
+    "examples": [
+     "2003",
+     "2007",
+     "2009"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 3,
+    "examples": [
+     "Gild atkvæði",
+     "Hlutfallsleg skipting, %",
+     "Þingsæti"
+    ]
+   },
+   {
+    "name": "Kjördæmi",
+    "n_values": 7,
+    "examples": [
+     "Alls",
+     "Norðvesturkjördæmi",
+     "Norðausturkjördæmi",
+     "Suðurkjördæmi",
+     "Suðvesturkjördæmi",
+     "Reykjavíkurkjördæmi suður",
+     "Reykjavíkurkjördæmi norður"
+    ]
+   },
+   {
+    "name": "Flokkur",
+    "n_values": 11,
+    "examples": [
+     "Alls",
+     "Framsóknarflokkur",
+     "Sjálfstæðisflokkur",
+     "Frjálslyndi flokkurinn",
+     "Nýtt afl",
+     "Samfylkingin",
+     "Framboð óháðra í suðurkjördæmi",
+     "Vinstrihreyfingin - grænt framboð"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SAM07302",
+  "title": "Vöru- og þjónustukaup einstaklinga á netinu 2002-2019",
+  "folder": "Atvinnuvegir › Vísindi og tækni › Upplýsingatækninotkun einstaklinga › Viðskipti um netið",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 16,
+    "examples": [
+     "2002",
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009"
+    ],
+    "period": "2002 – 2019"
+   },
+   {
+    "name": "Vöru- og þjónustutegundir",
+    "n_values": 19,
+    "examples": [
+     "Matvæli, hreinlætisvörur",
+     "Hluti til heimilisins, ekki raftæki",
+     "Lyf",
+     "Tónlist, kvikmyndir",
+     "Bækur, tímarit, rafbækur",
+     "Föt, skór, íþróttavörur",
+     "Tölvuleikir",
+     "Annar hugbúnaður og uppfærslur"
+    ]
+   },
+   {
+    "name": "Hópar",
+    "n_values": 23,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur",
+     "16-24 ára",
+     "25-34 ára",
+     "35-44 ára",
+     "45-54 ára",
+     "55-64 ára"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN06110",
+  "title": "Sýndar langar leiknar kvikmyndir eftir framleiðandalandi/svæði  1996-2019",
+  "folder": "Samfelag › Miðlun › Kvikmyndir og myndbönd › Kvikmyndir",
+  "variables": [
+   {
+    "name": "Skipting",
+    "n_values": 2,
+    "examples": [
+     "Fjöldi mynda",
+     "Hlutfallsleg skipting, %"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 24,
+    "examples": [
+     "1996",
+     "1997",
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003"
+    ],
+    "period": "1996 – 2019"
+   },
+   {
+    "name": "Framleiðandaland",
+    "n_values": 13,
+    "examples": [
+     "Alls",
+     "Íslenskar",
+     "Norrænar",
+     "Breskar",
+     "Franskar",
+     "Ítalskar",
+     "Spænskar",
+     "Þýskar"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "HEI20023",
+  "title": "Fólk með langvarandi veikindi og/eða heilsufarslegar takmarkanir í daglegu lífi eftir kyni og tekjufimmtungum 2004-2018",
+  "folder": "Samfelag › Heilbrigðismál › Hagur og heilbrigði",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 15,
+    "examples": [
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010",
+     "2011"
+    ],
+    "period": "2004 – 2018"
+   },
+   {
+    "name": "Vísir",
+    "n_values": 4,
+    "examples": [
+     "Langvarandi veikindi",
+     "Alls - heilsufarslegar takmarkanir",
+     "Nokkrar heilsufarslegar takmarkanir",
+     "Verulegar heilsufarslegar takmarkanir"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Konur",
+     "Karlar"
+    ]
+   },
+   {
+    "name": "Tekjufimmtungar",
+    "n_values": 6,
+    "examples": [
+     "Alls",
+     "Lægsta tekjubil 1-20%",
+     "Annað tekjubil 21-40%",
+     "Þriðja tekjubil 41-60%",
+     "Fjórða tekjubil 61-80%",
+     "Efsta tekjubil 81-100%"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 3,
+    "examples": [
+     "Hlutfall einstaklinga (%)",
+     "Lægri mörk hlutfalls (%)",
+     "Efri mörk hlutfalls (%)"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "VIN00001",
+  "title": "Vinnuafl, starfandi, atvinnulausir og vinnustundir - Mæling 2003-2026 eftir Mánuður, Kyn/aldur og Eining",
+  "folder": "Samfelag › Vinnumarkaður › Vinnumarkaðsrannsókn › Vinnumarkaðsrannsókn - mánaðartölur",
+  "variables": [
+   {
+    "name": "Mánuður",
+    "n_values": 285,
+    "examples": [
+     "2003M01",
+     "2003M02",
+     "2003M03",
+     "2003M04",
+     "2003M05",
+     "2003M06",
+     "2003M07",
+     "2003M08"
+    ],
+    "period": "2003M01 – 2026M09"
+   },
+   {
+    "name": "Kyn/aldur",
+    "n_values": 5,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur",
+     "16 - 24 ára",
+     "25 - 74 ára"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 12,
+    "examples": [
+     "Mannfjöldi",
+     "Vinnuafl",
+     "Utan vinnumarkaðar",
+     "Atvinnulausir",
+     "Starfandi",
+     "Við vinnu í viðmiðunarviku",
+     "Atvinnuþátttaka",
+     "Atvinnuleysi"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "THJ09003",
+  "title": "Skuldir, hlutfallsdreifing, samtala tíundahluta 1997-2025",
+  "folder": "Samfelag › Lífskjör › Skuldir og eignir  › Skuldir, eignir og eiginfjárstaða fjölskyldna úr skattframtölum",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 29,
+    "examples": [
+     "1997",
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004"
+    ],
+    "period": "1997 – 2025"
+   },
+   {
+    "name": "Tíundarhluti",
+    "n_values": 12,
+    "examples": [
+     "Alls",
+     "Skuldlausir",
+     "1. tíund",
+     "2. tíund",
+     "3. tíund",
+     "4. tíund",
+     "5. tíund",
+     "6. tíund"
+    ]
+   },
+   {
+    "name": "Eignir, skuldir, tekjur og gjöld",
+    "n_values": 24,
+    "examples": [
+     "Eignir alls",
+     "Fasteignir",
+     "Ökutæki",
+     "Innlán",
+     "Verðbréf",
+     "Aðrar eignir",
+     "Skuldir alls",
+     "Íbúðalán"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SJA05003",
+  "title": "Opnir fiskibátar 2003-2024",
+  "folder": "Atvinnuvegir › Sjávarútvegur › Fiskiskipastóllinn",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 22,
+    "examples": [
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010"
+    ],
+    "period": "2003 – 2024"
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Brúttótonn",
+     "Fjöldi"
+    ]
+   },
+   {
+    "name": "Skipagerð",
+    "n_values": 11,
+    "examples": [
+     "0 - 2,99 tonn",
+     "3 - 4,99 tonn",
+     "5 - 6,99 tonn",
+     "7 - 8,99 tonn",
+     "9 - 10,99 tonn",
+     "yfir 11 tonn",
+     "0 - 5 ára",
+     "5 - 10 ára"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN20101",
+  "title": "Rekstraraðilar og rekstrartekjur í menningu og skapandi greinum 2008-2024",
+  "folder": "Samfelag › Menning › Hagrænir mælikvarðar › Rekstraraðilar og rekstrartekjur í menningu og skapandi greinum",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 17,
+    "examples": [
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015"
+    ],
+    "period": "2008 – 2024"
+   },
+   {
+    "name": "Menningargrein",
+    "n_values": 13,
+    "examples": [
+     "Alls í menningu og skapandi greinum",
+     "Auglýsingastofur",
+     "Bókmenntir",
+     "Fjölmiðlar",
+     "Hönnun og arkitektúr",
+     "Kvikmyndir og sjónvarp",
+     "Listnám",
+     "Menningararfur"
+    ]
+   },
+   {
+    "name": "Breyta",
+    "n_values": 2,
+    "examples": [
+     "Fjöldi rekstraraðila",
+     "Rekstrartekjur"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Alls",
+     "Alls með 3 mkr eða meira í rekstrartekjur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "UTA06102",
+  "title": "Útflutningur eftir vinnslugreinum og löndum 2015-2026",
+  "folder": "Efnahagur › Utanríkisverslun › Vöruviðskipti › Vöruviðskipti",
+  "variables": [
+   {
+    "name": "Vinnslugrein",
+    "n_values": 48,
+    "examples": [
+     "00 Nýr, kældur eða ísvarinn heill fiskur",
+     "01 Ný, kæld eða ísvarin fiskflök",
+     "02 Annað ferskt, kælt sjávarfang",
+     "10 Sjófrystur heill fiskur",
+     "11 Sjófryst, blokkfryst flök",
+     "12 Sjófryst flök ót.a.",
+     "13 Annað sjófryst sjávarfang",
+     "14 Heilfrystur fiskur ót.a."
+    ]
+   },
+   {
+    "name": "Land",
+    "n_values": 253,
+    "examples": [
+     "Afganistan",
+     "Albanía",
+     "Alsír",
+     "Ameríska Samoa",
+     "Andorra",
+     "Angóla",
+     "Anguilla",
+     "Antigua og Barbuda"
+    ]
+   },
+   {
+    "name": "Mánuður",
+    "n_values": 140,
+    "examples": [
+     "2015M01",
+     "2015M02",
+     "2015M03",
+     "2015M04",
+     "2015M05",
+     "2015M06",
+     "2015M07",
+     "2015M08"
+    ],
+    "period": "2015M01 – 2026M08"
+   },
+   {
+    "name": "Eining",
+    "n_values": 3,
+    "examples": [
+     "Einingar",
+     "Tonn",
+     "Fob verð milljónir króna"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SKO04205b",
+  "title": "Brautskráningar á háskólastigi og doktorsstigi eftir einstöku sviði, prófgráðu og kyni 1995-2025",
+  "folder": "Samfelag › Menntun › Háskóla- og doktorsstig › Brautskráningar",
+  "variables": [
+   {
+    "name": "Einstök svið",
+    "n_values": 101,
+    "examples": [
+     "Alls",
+     "Almennt og/eða breitt grunnnám",
+     "Læsi og talnalæsi",
+     "Persónuleg hæfni",
+     "Kennaramenntun og menntunarfræði (breiðar námsleiðir)",
+     "Menntunarfræði",
+     "Leikskólakennaranám",
+     "Grunnskólakennaranám"
+    ]
+   },
+   {
+    "name": "Prófgráða",
+    "n_values": 6,
+    "examples": [
+     "Alls",
+     "Próf á háskólastigi (ekki háskólagráða), ISCED 5B",
+     "Fyrsta háskólagráða, ISCED 5A",
+     "Viðbótarnám að lokinni fyrstu gráðu, ISCED 5A",
+     "Meistaragráða, ISCED 5A",
+     "Doktorsgráða, ISCED 6"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 30,
+    "examples": [
+     "1995-1996",
+     "1996-1997",
+     "1997-1998",
+     "1998-1999",
+     "1999-2000",
+     "2000-2001",
+     "2001-2002",
+     "2002-2003"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "STI03261",
+  "title": "Hlutfall fyrirtækja sem hafa mótað sér stefnu um notkun gervigreindar 2025",
+  "folder": "Atvinnuvegir › Vísindi og tækni › Upplýsingatækninotkun fyrirtækja › Gervigreind",
+  "variables": [
+   {
+    "name": "Starfsemi/stærð",
+    "n_values": 15,
+    "examples": [
+     "Öll fyrirtæki",
+     "Byggingastarfsemi og mannvirkjagerð (2)",
+     "Fasteignaviðskipti",
+     "Flutningur og geymsla (4)",
+     "Framleiðsla",
+     "Heild- og smásöluverslun, viðgerðir á vélknúnum ökutækjum (3)",
+     "Leigustarfsemi og ýmis sérhæfð þjónusta",
+     "Rafmagns- gas- og hitaveitur"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 1,
+    "examples": [
+     "2025"
+    ],
+    "period": "2025 – 2025"
+   }
+  ]
+ },
+ {
+  "id": "LAN10201",
+  "title": "Kjötframleiðsla eftir tegundum frá 1983",
+  "folder": "Atvinnuvegir › Landbúnaður › Landbúnaðarframleiðsla",
+  "variables": [
+   {
+    "name": "Kjöttegund",
+    "n_values": 5,
+    "examples": [
+     "Kindakjöt",
+     "Nautakjöt",
+     "Hrossakjöt",
+     "Svínakjöt",
+     "Alifuglakjöt"
+    ]
+   },
+   {
+    "name": "Flokkar",
+    "n_values": 6,
+    "examples": [
+     "Fjöldi sláturdýra",
+     "Framleiðsla í tonnum",
+     "Seld innanlandsframleiðsla í tonnum",
+     "Útflutt í tonnum",
+     "Innflutt í tonnum",
+     "Birgðir í árslok í tonnum"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 43,
+    "examples": [
+     "1983",
+     "1984",
+     "1985",
+     "1986",
+     "1987",
+     "1988",
+     "1989",
+     "1990"
+    ],
+    "period": "1983 – 2025"
+   }
+  ]
+ },
+ {
+  "id": "KOS03106",
+  "title": "Frambjóðendur og kjörnir fulltrúar eftir stærð sveitarfélaga og kosningahætti 1990-2022",
+  "folder": "Ibuar › Kosningar › Sveitarstjórnarkosningar › Sveitarstjórnarkosningar - yfirlit",
+  "variables": [
+   {
+    "name": "Skipting",
+    "n_values": 6,
+    "examples": [
+     "Allt landið",
+     "Sveitarfélög með 1.000 íbúa og fleiri",
+     "Sveitarfélög með 300-999 íbúa",
+     "Sveitarfélög með 299 íbúa eða færri",
+     "Kosið með bundinni hlutfallskosningu",
+     "Kosið með óbundinni kosningu"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 9,
+    "examples": [
+     "1990",
+     "1994",
+     "1998",
+     "2002",
+     "2006",
+     "2010",
+     "2014",
+     "2018"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Frambjóðendur",
+     "Kjörnir fulltrúar"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN03111",
+  "title": "Dagskrá Bylgjunnar eftir efni 1987 og 1997-2010",
+  "folder": "Samfelag › Miðlun › Fjölmiðlar › Hljóðvarp",
+  "variables": [
+   {
+    "name": "Skipting",
+    "n_values": 2,
+    "examples": [
+     "Stundir á ári",
+     "Hlutfallsleg skipting, %"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 15,
+    "examples": [
+     "1987",
+     "1997",
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003"
+    ]
+   },
+   {
+    "name": "Dagskrá",
+    "n_values": 11,
+    "examples": [
+     "Alls",
+     "Fréttir og veður",
+     "Samfélagsmálefni",
+     "Menning, listir og vísindi",
+     "Afþreying og skemmtun",
+     "Tónlist",
+     "Íþróttir",
+     "Barna- og unglingaefni"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "LAU04103",
+  "title": "Vísitölur launa helstu launþegahópa, ársfjórðungsmeðaltöl frá 2015",
+  "folder": "Samfelag › Laun og tekjur › Vísitölur launa › Ársfjórðungstölur",
+  "variables": [
+   {
+    "name": "Ársfjórðungur",
+    "n_values": 46,
+    "examples": [
+     "2015Á1",
+     "2015Á2",
+     "2015Á3",
+     "2015Á4",
+     "2016Á1",
+     "2016Á2",
+     "2016Á3",
+     "2016Á4"
+    ],
+    "period": "2015Á1 – 2026Á2"
+   },
+   {
+    "name": "Vísitala",
+    "n_values": 2,
+    "examples": [
+     "Launavísitala",
+     "Vísitala grunnlauna"
+    ]
+   },
+   {
+    "name": "Launþegahópur",
+    "n_values": 5,
+    "examples": [
+     "Alls",
+     "Starfsmenn á almennum vinnumarkaði",
+     "Opinberir starfsmenn - alls",
+     "Opinberir starfsmenn - ríkisstarfsmenn",
+     "Opinberir starfsmenn - starfsmenn sveitarfélaga"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 3,
+    "examples": [
+     "Ársfjórðungsmeðaltal",
+     "Ársfjórðungsbreyting, %",
+     "Ársbreyting, %"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "UTA04010",
+  "title": "Þjónustuviðskipti við útlönd eftir völdum þjónustuflokkum og helstu viðskiptalöndum 2013-2025",
+  "folder": "Efnahagur › Utanríkisverslun › Þjónustuviðskipti › Þjónustuviðskipti",
+  "variables": [
+   {
+    "name": "Þjónustuflokkur",
+    "n_values": 18,
+    "examples": [
+     "Heildarþjónusta",
+     "3. Samgöngur og flutningar",
+     "3.1. Sjóflutningar",
+     "3.2. Flugsamgöngur",
+     "3.3. Aðrar samgöngur",
+     "3.4. Póst- og hraðboðaþjónusta",
+     "4. Ferðalög",
+     "8. Gjöld fyrir notkun hugverka ót.a."
+    ]
+   },
+   {
+    "name": "Land",
+    "n_values": 39,
+    "examples": [
+     "Alls",
+     "Austurríki",
+     "Ástralía",
+     "Belgía",
+     "Kanada",
+     "Sviss",
+     "Kína",
+     "Tékkland"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 13,
+    "examples": [
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020"
+    ],
+    "period": "2013 – 2025"
+   },
+   {
+    "name": "Þjónustuviðskipti",
+    "n_values": 2,
+    "examples": [
+     "Útflutningur",
+     "Innflutningur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "HEI02100",
+  "title": "Forstöðumenn ríkisstofnana eftir kyni frá 2009-2019",
+  "folder": "Samfelag › Félagsmál › Konur og karlar › Áhrifastöður",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 11,
+    "examples": [
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016"
+    ],
+    "period": "2009 – 2019"
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "UTA04009",
+  "title": "Þjónustuviðskipti við útlönd eftir löndum og ársfjórðungum 2013-2026",
+  "folder": "Efnahagur › Utanríkisverslun › Þjónustuviðskipti › Þjónustuviðskipti",
+  "variables": [
+   {
+    "name": "Flokkur",
+    "n_values": 5,
+    "examples": [
+     "Heildarþjónusta",
+     "Samgöngur og flutningar",
+     "Farþegaflutningar með flugi",
+     "Ferðalög",
+     "Önnur þjónusta"
+    ]
+   },
+   {
+    "name": "Land",
+    "n_values": 19,
+    "examples": [
+     "Alls",
+     "Evrópa",
+     "Belgía",
+     "Sviss",
+     "Þýskaland",
+     "Danmörk",
+     "Spánn",
+     "Frakkland"
+    ]
+   },
+   {
+    "name": "Ársfjórðungur",
+    "n_values": 54,
+    "examples": [
+     "2013Á1",
+     "2013Á2",
+     "2013Á3",
+     "2013Á4",
+     "2014Á1",
+     "2014Á2",
+     "2014Á3",
+     "2014Á4"
+    ],
+    "period": "2013Á1 – 2026Á2"
+   },
+   {
+    "name": "Þjónustuviðskipti",
+    "n_values": 3,
+    "examples": [
+     "Útflutningur",
+     "Innflutningur",
+     "Þjónustujöfnuður"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN12102",
+  "title": "Félög listamanna 1980-2018",
+  "folder": "Samfelag › Menning › Samtök listamanna",
+  "variables": [
+   {
+    "name": "Félag",
+    "n_values": 18,
+    "examples": [
+     "Arkitektafélag Íslands",
+     "Danshöfundafélag Íslands",
+     "Félag íslenskra hljómlistarmanna",
+     "Félag íslenskra leikara",
+     "Félag íslenskra listdansara",
+     "Félag íslenskra tónlistarmanna",
+     "Félag kvikmyndagerðarmanna",
+     "Félag leikmynda og búningahöfunda"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 27,
+    "examples": [
+     "1980",
+     "1985",
+     "1990",
+     "1995",
+     "1996",
+     "1997",
+     "1998",
+     "1999"
+    ],
+    "period": "1980 – 2018"
+   }
+  ]
+ },
+ {
+  "id": "VIN01504",
+  "title": "Fjarvinna heima, 25-64 ára eftir atvinnustétt, kyni og starfsstétt 2007-2026",
+  "folder": "Samfelag › Vinnumarkaður › Vinnumarkaðsrannsókn › Vinnumarkaðsrannsókn - ársfjórðungstölur",
+  "variables": [
+   {
+    "name": "Ársfjórðungur",
+    "n_values": 77,
+    "examples": [
+     "2007Á1",
+     "2007Á2",
+     "2007Á3",
+     "2007Á4",
+     "2008Á1",
+     "2008Á2",
+     "2008Á3",
+     "2008Á4"
+    ],
+    "period": "2007Á1 – 2026Á1"
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Karlar og konur",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Starfsstétt",
+    "n_values": 10,
+    "examples": [
+     "Alls",
+     "Kjörnir fulltrúar, æðstu embættismenn og stjórnendur",
+     "Sérfræðingar",
+     "Tæknar og sérmenntað starfsfólk",
+     "Skrifstofufólk",
+     "Þjónustu-, sölu- og afgreiðslufólk",
+     "Bændur og fiskimenn",
+     "Iðnaðarmenn og sérhæft iðnverkafólk"
+    ]
+   },
+   {
+    "name": "Atvinnustétt",
+    "n_values": 3,
+    "examples": [
+     "Alls starfandi",
+     "Launafólk",
+     "Sjálfstætt starfandi"
+    ]
+   },
+   {
+    "name": "Starf unnið heima að hluta eða öllu leyti",
+    "n_values": 7,
+    "examples": [
+     "Alls",
+     "Vinna venjulega eitthvað heima",
+     "Vinna stundum eitthvað heima",
+     "Vinna starfið aldrei heima",
+     "Alls - vinna eitthvað heima",
+     "Unnu starfið eitthvað heima í viðmiðunarviku",
+     "Unnu ekki starfið heima í viðmiðunarviku"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "UTA06106",
+  "title": "Útfluttur ferskur fiskur eftir flutningsmáta 1988-2025",
+  "folder": "Efnahagur › Utanríkisverslun › Vöruviðskipti › Vöruviðskipti",
+  "variables": [
+   {
+    "name": "Vöruflokkur",
+    "n_values": 2,
+    "examples": [
+     "100 - Ný, kæld eða ísvarin fiskflök",
+     "110 - Nýr, kældur eða ísvarinn heill fiskur"
+    ]
+   },
+   {
+    "name": "Flutningsmáti",
+    "n_values": 4,
+    "examples": [
+     "Alls",
+     "Með flugvélum",
+     "Með vöruflutningaskipum",
+     "Landanir fiskiskipa erlendis"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 38,
+    "examples": [
+     "1988",
+     "1989",
+     "1990",
+     "1991",
+     "1992",
+     "1993",
+     "1994",
+     "1995"
+    ],
+    "period": "1988 – 2025"
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Tonn",
+     "Fob milljónir króna"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "LAU04201",
+  "title": "Vísitölur launa, ársmeðaltöl frá 2015",
+  "folder": "Samfelag › Laun og tekjur › Vísitölur launa › Árstölur",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 11,
+    "examples": [
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021",
+     "2022"
+    ],
+    "period": "2015 – 2025"
+   },
+   {
+    "name": "Vísitala",
+    "n_values": 2,
+    "examples": [
+     "Launavísitala",
+     "Vísitala grunnlauna"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Ársmeðaltal",
+     "Árshækkun, %"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "HEI02204",
+  "title": "Stjórnir, nefndir og ráð ríkisins 1971-2007",
+  "folder": "Samfelag › Félagsmál › Konur og karlar › Áhrifastöður",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 11,
+    "examples": [
+     "1971",
+     "1980",
+     "1983",
+     "1987",
+     "1990",
+     "1994",
+     "2000",
+     "2001-2003"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Fjöldi nefndarmanna",
+     "Hlutföll"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 2,
+    "examples": [
+     "Konur",
+     "Karlar"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS02133",
+  "title": "Þingmenn kjörnir í Suðurkjördæmi í alþingiskosningum 27. apríl 2013",
+  "folder": "Ibuar › Kosningar › Alþingiskosningar › Alþingiskosningar - kjörnir þingmenn",
+  "variables": [
+   {
+    "name": "Þingmaður",
+    "n_values": 20,
+    "examples": [
+     "A1  Sigurður Ingi Jóhannsson (B)",
+     "A2  Ragnheiður Elín Árnadóttir (D)",
+     "A3  Silja Dögg Gunnarsdóttir (B)",
+     "A4  Unnur Brá Konráðsdóttir (D)",
+     "A5  Páll Jóhann Pálsson (B)",
+     "A6  Oddný G. Harðardóttir (S)",
+     "A7  Ásmundur Friðriksson (D)",
+     "A8  Haraldur Einarsson (B)"
+    ]
+   },
+   {
+    "name": "Tölur",
+    "n_values": 4,
+    "examples": [
+     "Útkomutala, sbr. 2. tölul. 107. gr.",
+     "Landstala, sbr. 1. tölul. 3. mgr. 108. gr.",
+     "Hlutfallstala, sbr. 2. og 3. tölul. 3. mgr. 108. gr.",
+     "Atkvæðatala, sbr. 2. mgr. 110. gr."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SKO04209a",
+  "title": "Brottfall af háskólastigi eftir kyni, aldri, kennsluformi og prófgráðu 2002-2003",
+  "folder": "Samfelag › Menntun › Háskóla- og doktorsstig › Brautskráningar",
+  "variables": [
+   {
+    "name": "eining",
+    "n_values": 2,
+    "examples": [
+     "Fjöldi brottfallinna",
+     "Hlutfall brottfallinna"
+    ]
+   },
+   {
+    "name": "kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "aldursflokkur",
+    "n_values": 11,
+    "examples": [
+     "Alls",
+     "19 ára og yngri",
+     "20-24",
+     "25-29",
+     "30-34",
+     "35-39",
+     "40-44",
+     "45-49"
+    ]
+   },
+   {
+    "name": "kennsluform",
+    "n_values": 4,
+    "examples": [
+     "Öll kennsluform",
+     "Dagskóli",
+     "Fjarnám",
+     "Kvöldskóli"
+    ]
+   },
+   {
+    "name": "prófgráða",
+    "n_values": 6,
+    "examples": [
+     "Allar prófgráður",
+     "Án háskólagráðu",
+     "1. háskólagráða",
+     "Viðbótarnám eftir 1. háskólagráðu",
+     "Meistaragráða",
+     "Doktorsgráða"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "VIN01701",
+  "title": "Hlutfall starfandi, atvinnuleysi og ofmenntun eftir bakgrunni og kyni 2008-2017",
+  "folder": "Samfelag › Vinnumarkaður › Vinnumarkaðsrannsókn › Vinnumarkaðsrannsókn - árstölur",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 10,
+    "examples": [
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015"
+    ],
+    "period": "2008 – 2017"
+   },
+   {
+    "name": "Atvinna",
+    "n_values": 3,
+    "examples": [
+     "Starfandi",
+     "Atvinnuleysi",
+     "Ofmenntun"
+    ]
+   },
+   {
+    "name": "Bakgrunnur",
+    "n_values": 2,
+    "examples": [
+     "Innflytjendur",
+     "Innlendir"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Hlutfall",
+     "Vikmörk, ±"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "VIS06140",
+  "title": "Hlutfallslegt verðlag vergrar landsframleiðslu með Ár, Flokkur og Land. ESB=100",
+  "folder": "Efnahagur › Verðlag › Verðsamanburður í Evrópu › Verðsamanburður í Evrópu",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 31,
+    "examples": [
+     "1995",
+     "1996",
+     "1997",
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002"
+    ],
+    "period": "1995 – 2025"
+   },
+   {
+    "name": "Flokkur",
+    "n_values": 64,
+    "examples": [
+     "A01 Einstaklingsbundin neysla",
+     "A0101 Matur og óáfengir drykkir",
+     "A010101 Matur",
+     "A01010101 Korn og kornvörur",
+     "A01010102 Kjöt, lifandi dýr og aðrir hlutar af slátruðum landdýrum",
+     "A01010103 Fiskur og annað sjávarfang",
+     "A01010104 Mjólk, mjólkurvörur og egg",
+     "A01010105 Olíur og feiti"
+    ]
+   },
+   {
+    "name": "Land",
+    "n_values": 41,
+    "examples": [
+     "ESB-27",
+     "Albanía",
+     "Austurríki",
+     "Belgía",
+     "Bosnia og Herzegovina",
+     "Búlgaría",
+     "Danmörk",
+     "Eistland"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SKO02302b",
+  "title": "Starfsfólk við kennslu eftir kyni, réttindum og prófgráðu 2020-2024",
+  "folder": "Samfelag › Menntun › Grunnskólastig › Starfsfólk",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 5,
+    "examples": [
+     "2020",
+     "2021",
+     "2022",
+     "2023",
+     "2024"
+    ],
+    "period": "2020 – 2024"
+   },
+   {
+    "name": "Starfsheiti",
+    "n_values": 4,
+    "examples": [
+     "Alls",
+     "Skólastjórar",
+     "Aðstoðarskólastjórar",
+     "Deildarstjórar og kennarar"
+    ]
+   },
+   {
+    "name": "Menntun",
+    "n_values": 5,
+    "examples": [
+     "Alls",
+     "Grunnskólastig",
+     "Framhaldsskólastig",
+     "Grunnpróf á háskólastigi",
+     "Meistaragráða eða doktorsgráða"
+    ]
+   },
+   {
+    "name": "Réttindi",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Með kennsluréttindi",
+     "Án kennsluréttinda"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "LAN1002",
+  "title": "Búfé eftir tegundum og landssvæðum 2010",
+  "folder": "Atvinnuvegir › Landbúnaður › Landbúnaðarrannsókn",
+  "variables": [
+   {
+    "name": "Fjöldi",
+    "n_values": 21,
+    "examples": [
+     "Fjöldi býla med hross",
+     "Hross",
+     "Fjöldi býla med nautgripi",
+     "Nautgripir, alls",
+     "Kálfar yngri en 1 árs",
+     "Naut á öðru ári",
+     "Naut eldri en 2 ára",
+     "Kvígur á öðru ári óbornar"
+    ]
+   },
+   {
+    "name": "Landsvæði",
+    "n_values": 8,
+    "examples": [
+     "Höfuðborgarsvæði og Suðurnes",
+     "Vesturland",
+     "Vestfirðir",
+     "Norðurland vestra",
+     "Norðurland eystra",
+     "Austurland",
+     "Suðurland",
+     "Alls"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SAM01601",
+  "title": "Gistinætur og gestakomur á öllum tegundum skráðra gististaða 1998-",
+  "folder": "Atvinnuvegir › Ferðaþjónusta › Gistinætur › Allar tegundir gististaða",
+  "variables": [
+   {
+    "name": "Þjóðerni",
+    "n_values": 54,
+    "examples": [
+     "Alls",
+     "Ísland",
+     "Útlendingar",
+     "Austurríki",
+     "Ástralía",
+     "Bandaríkin",
+     "Belgía",
+     "Brasilía"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 29,
+    "examples": [
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005"
+    ],
+    "period": "1998 – 2026"
+   },
+   {
+    "name": "Landshluti",
+    "n_values": 9,
+    "examples": [
+     "Allt landið",
+     "Austurland",
+     "Höfuðborgarsvæðið",
+     "Norðurland eystra",
+     "Norðurland vestra",
+     "Suðurland",
+     "Suðurnes",
+     "Vestfirðir"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Gistinætur",
+     "Gestakomur"
+    ]
+   },
+   {
+    "name": "Mánuður",
+    "n_values": 13,
+    "examples": [
+     "Alls",
+     "Janúar",
+     "Febrúar",
+     "Mars",
+     "Apríl",
+     "Maí",
+     "Júní",
+     "Júlí"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS03319",
+  "title": "Frambjóðendur eftir kyni, aldri og stjórnmálasamtökum í sveitarstjórnarkosningum 2022",
+  "folder": "Ibuar › Kosningar › Sveitarstjórnarkosningar › Sveitarstjórnarkosningar - frambjóðendur",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 1,
+    "examples": [
+     "2022"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Stjórnmálasamtök",
+    "n_values": 10,
+    "examples": [
+     "Alls",
+     "Framsóknarflokkur  (B)",
+     "Viðreisn  (C)",
+     "Sjálfstæðisflokkur  (D)",
+     "Flokkur fólksins  (F)",
+     "Miðflokkurinn   (M)",
+     "Píratar  (P)",
+     "Samfylkingin  (S)"
+    ]
+   },
+   {
+    "name": "Aldur",
+    "n_values": 16,
+    "examples": [
+     "Alls",
+     "18-19 ára",
+     "20-24 ára",
+     "25-29 ára",
+     "30-34 ára",
+     "35-39 ára",
+     "40-44 ára",
+     "45-49 ára"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "UMH51001",
+  "title": "Umhverfisskattar eftir atvinnugreinum samkvæmt skattaflokkun umhverfisreikninga 2014-2024",
+  "folder": "Umhverfi › Græna hagkerfið › Umhverfisskattar",
+  "variables": [
+   {
+    "name": "Tegund skatts",
+    "n_values": 7,
+    "examples": [
+     "Samtals skattar hér",
+     "Orkuskattar",
+     "Flutningsskattar",
+     "Mengunarskattar",
+     "Auðlindaskattar",
+     "ETS skattar",
+     "Aðrir CO2 skattar"
+    ]
+   },
+   {
+    "name": "Atvinnugrein",
+    "n_values": 73,
+    "examples": [
+     "Samtals fyrir atvinnugreinar, heimili og erlenda aðila",
+     "Heimili",
+     "Samtals fyrir atvinnugreinar",
+     "A - Landbúnaður, skógrækt og veiðar",
+     "A01 - Ræktun nytjajurta og búfjárrækt, veiðar og tengd þjónustustarfsemi",
+     "A02 - Skógrækt og skógarhögg",
+     "A03 - Fiskveiðar og fiskeldi",
+     "B - Námugröftur og vinnsla hráefna úr jörðu"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 11,
+    "examples": [
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018",
+     "2019",
+     "2020",
+     "2021"
+    ],
+    "period": "2014 – 2024"
+   }
+  ]
+ },
+ {
+  "id": "MEN04007",
+  "title": "Dagskrá almennra sjónvarpsstöðva eftir uppruna 1966-2010",
+  "folder": "Samfelag › Miðlun › Fjölmiðlar › Sjónvarp",
+  "variables": [
+   {
+    "name": "Stöðvar",
+    "n_values": 3,
+    "examples": [
+     "Ríkisútvarpið - Sjónvarp",
+     "Skjár 1",
+     "Stöð 2"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 45,
+    "examples": [
+     "1966",
+     "1967",
+     "1968",
+     "1969",
+     "1970",
+     "1971",
+     "1972",
+     "1973"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Stundir á ári",
+     "Hlutfallsleg skipting, %"
+    ]
+   },
+   {
+    "name": "Dagskrá",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Innlent",
+     "Erlent"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "HEI03006",
+  "title": "Dagvistarými fyrir aldraða eftir landsvæðum 1993-2010",
+  "folder": "Samfelag › Félagsmál › Stofnanir aldraðra",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 18,
+    "examples": [
+     "1993",
+     "1994",
+     "1995",
+     "1996",
+     "1997",
+     "1998",
+     "1999",
+     "2000"
+    ]
+   },
+   {
+    "name": "Landsvæði",
+    "n_values": 11,
+    "examples": [
+     "Alls",
+     "Höfuðborgarsvæði",
+     "Reykjavík",
+     "Annað",
+     "Suðurnes",
+     "Vesturland",
+     "Vestfirðir",
+     "Norðurland vestra"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN05113",
+  "title": "Uppfærslur, sýningar og gestir atvinnuleikhópa eftir tegund verka 1986-2020",
+  "folder": "Samfelag › Menning › Listir › Leiklist",
+  "variables": [
+   {
+    "name": "Flokkur",
+    "n_values": 3,
+    "examples": [
+     "Uppfærslur",
+     "Sýningar",
+     "Gestir"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 32,
+    "examples": [
+     "1986",
+     "1987",
+     "1988",
+     "1989",
+     "1990",
+     "1991",
+     "1992",
+     "1993"
+    ],
+    "period": "1986 – 2019/2020"
+   },
+   {
+    "name": "Tegund verks",
+    "n_values": 6,
+    "examples": [
+     "Alls",
+     "Leikrit",
+     "Söngleikir",
+     "Óperur og óperettur",
+     "Ballet/listdans",
+     "Annað (brúðuleikur, leiklestur o.fl.)"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SKO04211",
+  "title": "Doktorsvarnir Íslendinga eftir námslandi 1997-2006",
+  "folder": "Samfelag › Menntun › Háskóla- og doktorsstig › Brautskráningar",
+  "variables": [
+   {
+    "name": "Námsland",
+    "n_values": 9,
+    "examples": [
+     "Alls",
+     "Bandaríkin",
+     "Svíþjóð",
+     "Ísland",
+     "Bretland",
+     "Noregur",
+     "Danmörk",
+     "Önnur Evrópulönd"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 10,
+    "examples": [
+     "1997",
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS03105",
+  "title": "Kjörnir sveitarstjórnarmenn eftir kyni og aldri 1958-2022",
+  "folder": "Ibuar › Kosningar › Sveitarstjórnarkosningar › Sveitarstjórnarkosningar - yfirlit",
+  "variables": [
+   {
+    "name": "Einingar",
+    "n_values": 4,
+    "examples": [
+     "Fulltrúar",
+     "Endurkjörnir fulltrúar",
+     "Nýkjörnir fulltrúar",
+     "Fulltrúar af 1.000 íbúum í aldurshópum"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 17,
+    "examples": [
+     "1958",
+     "1962",
+     "1966",
+     "1970",
+     "1974",
+     "1978",
+     "1982",
+     "1986"
+    ]
+   },
+   {
+    "name": "Aldur",
+    "n_values": 14,
+    "examples": [
+     "Alls",
+     "18-19 ára",
+     "20-24 ára",
+     "25-29 ára",
+     "30-34 ára",
+     "35-39 ára",
+     "40-44 ára",
+     "45-49 ára"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SKO02105",
+  "title": "Fjöldi nemenda á hvern kennara 1998-2024",
+  "folder": "Samfelag › Menntun › Grunnskólastig › Nemendur",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 27,
+    "examples": [
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005"
+    ],
+    "period": "1998 – 2024"
+   },
+   {
+    "name": "Eining",
+    "n_values": 5,
+    "examples": [
+     "Fjöldi nemenda",
+     "Fjöldi kennara",
+     "Stöðugildi kennara",
+     "Fjöldi nemenda á hvern kennara",
+     "Fjöldi nemenda á hvert stöðugildi kennara"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS02004",
+  "title": "Kosningaþátttaka við forsetakjör 1952-2024",
+  "folder": "Ibuar › Kosningar › Yfirlit kosninga",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 10,
+    "examples": [
+     "1952, 29. júní",
+     "1968, 30. júní",
+     "1980, 29. júní",
+     "1988, 25. júní",
+     "1996, 29. júní",
+     "2004, 26. júní",
+     "2012, 30. júní",
+     "2016, 25. júní"
+    ]
+   },
+   {
+    "name": "Skipting",
+    "n_values": 4,
+    "examples": [
+     "Kjósendur á kjörskrá",
+     "Kjósendur af íbúum alls, %",
+     "Greidd atkvæði",
+     "Kosningaþátttaka, %"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 4,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur",
+     "Kynsegin/annað"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS02110",
+  "title": "Frambjóðendur eftir kyni, aldri og stjórnmálasamtökum í alþingiskosningum 2013",
+  "folder": "Ibuar › Kosningar › Alþingiskosningar › Alþingiskosningar - frambjóðendur",
+  "variables": [
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Stjórnmálasamtök",
+    "n_values": 16,
+    "examples": [
+     "Alls",
+     "Björt framtíð",
+     "Framsóknarflokkur",
+     "Sjálfstæðisflokkur",
+     "Hægri grænn, flokkur fólksins",
+     "Húmanistaflokkurinn",
+     "Flokkur heimilanna",
+     "Regnboginn, fyrir sjálfstæði Íslands og sjálfbæra þróun"
+    ]
+   },
+   {
+    "name": "Aldur",
+    "n_values": 9,
+    "examples": [
+     "Alls",
+     "18-29 ára",
+     "30-39 ára",
+     "40-49 ára",
+     "50-59 ára",
+     "60-69 ára",
+     "70-79 ára",
+     "80 ára og eldri"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "VIS13301",
+  "title": "Verðlag og neysla með Mánuður, Vísitala, Breytingar og Byggingarstig",
+  "folder": "Efnahagur › Verðlag › Byggingarvísitala › Byggingarvísitala",
+  "variables": [
+   {
+    "name": "Mánuður",
+    "n_values": 58,
+    "examples": [
+     "2021M12",
+     "2022M01",
+     "2022M02",
+     "2022M03",
+     "2022M04",
+     "2022M05",
+     "2022M06",
+     "2022M07"
+    ],
+    "period": "2021M12 – 2026M09"
+   },
+   {
+    "name": "Liður",
+    "n_values": 3,
+    "examples": [
+     "Vísitala",
+     "Mánaðarbreyting, %",
+     "Vægi"
+    ]
+   },
+   {
+    "name": "Byggingarstig",
+    "n_values": 8,
+    "examples": [
+     "1 Byggingarleyfi",
+     "2 Undirstöður",
+     "3 Burðarvirki fullreist",
+     "4 Fokheld bygging",
+     "5 Tilbúin til innréttingar",
+     "6 Fullgerð án lóðarfrágangs",
+     "7 Fullgerð bygging",
+     "Vísitala byggingarkostnaðar"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "LIF01125",
+  "title": "Miðgildi ráðstöfunartekna eftir því hvort heilsa hamlar daglegu lífi (16-67 ára) 2004-2016",
+  "folder": "Samfelag › Laun og tekjur › Tekjur › Ráðstöfunartekjur - lífskjararannsókn ",
+  "variables": [
+   {
+    "name": "Gildi",
+    "n_values": 2,
+    "examples": [
+     "Miðgildi",
+     "95% öryggisbil (+/-)"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 13,
+    "examples": [
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010",
+     "2011"
+    ],
+    "period": "2004 – 2016"
+   },
+   {
+    "name": "Mæling",
+    "n_values": 1,
+    "examples": [
+     "Ráðstöfunartekjur á neyslueiningu, nafnvirði"
+    ]
+   },
+   {
+    "name": "Vídd",
+    "n_values": 3,
+    "examples": [
+     "Heilsa hamlar mikið",
+     "Heilsa hamlar nokkuð",
+     "Heilsa hamlar ekki"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS03208a",
+  "title": "Greidd atkvæði eftir sveitarfélögum 2022",
+  "folder": "Ibuar › Kosningar › Sveitarstjórnarkosningar › Sveitarstjórnarkosningar - úrslit",
+  "variables": [
+   {
+    "name": "Sveitarfélag",
+    "n_values": 65,
+    "examples": [
+     "Allt landið",
+     "Reykjavíkurborg",
+     "Hafnarfjarðarkaupstaður",
+     "Garðabær",
+     "Kópavogsbær",
+     "Seltjarnarnesbær",
+     "Mosfellsbær",
+     "Kjósarhreppur"
+    ]
+   },
+   {
+    "name": "Skipting",
+    "n_values": 7,
+    "examples": [
+     "Kosningaháttur",
+     "Greidd atkvæði, alls",
+     "Utankjörfundaratkvæði (þar af)",
+     "Gildir seðlar",
+     "Auðir seðlar",
+     "Ógildir seðlar",
+     "Íbúar 14. maí 2022"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SKO02101",
+  "title": "Nemendur í grunnskólum eftir kyni og landsvæðum 1997-2025",
+  "folder": "Samfelag › Menntun › Grunnskólastig › Nemendur",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 29,
+    "examples": [
+     "1997",
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003",
+     "2004"
+    ],
+    "period": "1997 – 2025"
+   },
+   {
+    "name": "Landsvæði",
+    "n_values": 11,
+    "examples": [
+     "Alls",
+     "Höfuðborgarsvæði",
+     "Reykjavík",
+     "Höfuðborgarsvæði utan Reykjavíkur",
+     "Suðurnes",
+     "Vesturland",
+     "Vestfirðir",
+     "Norðurland vestra"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Drengir",
+     "Stúlkur"
+    ]
+   },
+   {
+    "name": "Bekkur",
+    "n_values": 11,
+    "examples": [
+     "Alls",
+     "1. bekkur",
+     "2. bekkur",
+     "3. bekkur",
+     "4. bekkur",
+     "5. bekkur",
+     "6. bekkur",
+     "7. bekkur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS02005",
+  "title": "Kosningaþátttaka í sveitarstjórnarkosningum 1938-2022",
+  "folder": "Ibuar › Kosningar › Yfirlit kosninga",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 22,
+    "examples": [
+     "1938",
+     "1942",
+     "1946",
+     "1950",
+     "1954",
+     "1958",
+     "1962",
+     "1966"
+    ]
+   },
+   {
+    "name": "Skipting",
+    "n_values": 4,
+    "examples": [
+     "Kjósendur á kjörskrá",
+     "Kjósendur af íbúum alls, %",
+     "Greidd atkvæði",
+     "Kosningaþátttaka, %"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 4,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur",
+     "Kynsegin/annað"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS03302",
+  "title": "Frambjóðendur og kjörnir fulltrúar í hlutbundnum kosningum eftir sveitarfélögum 2002",
+  "folder": "Ibuar › Kosningar › Sveitarstjórnarkosningar › Sveitarstjórnarkosningar - frambjóðendur",
+  "variables": [
+   {
+    "name": "Sveitarfélög",
+    "n_values": 248,
+    "examples": [
+     "Reykjavík",
+     "Reykjavík A Höfuðborgarsamtökin",
+     "Reykjavík D Sjálfstæðisflokkur",
+     "Reykjavík F Frjálslyndir og óháðir",
+     "Reykjavík H Húmanistaflokkurinn",
+     "Reykjavík R Framsóknarflokkur, Samfylkingin og Vinstrihreyfingin - grænt framboð",
+     "Reykjavík Æ Vinstri hægri snú",
+     "Seltjarnarnes"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Frambjóðendur",
+     "Fulltrúar kjörnir"
+    ]
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN09102",
+  "title": "Útgáfa myndbanda og mynddiska eftir framleiðandalandi 1996-2014",
+  "folder": "Samfelag › Miðlun › Kvikmyndir og myndbönd › Myndbönd og mynddiskar",
+  "variables": [
+   {
+    "name": "Skipting",
+    "n_values": 3,
+    "examples": [
+     "Myndbönd",
+     "DVD mynddiskar",
+     "Blue-ray mynddiskar"
+    ]
+   },
+   {
+    "name": "Framleiðandaland",
+    "n_values": 40,
+    "examples": [
+     "Alls",
+     "Ísland",
+     "Danmörk",
+     "Finnland",
+     "Grænland",
+     "Noregur",
+     "Svíþjóð",
+     "Belgía"
+    ]
+   },
+   {
+    "name": "Myndir",
+    "n_values": 2,
+    "examples": [
+     "Leigumyndir",
+     "Sölumyndir"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 19,
+    "examples": [
+     "1996",
+     "1997",
+     "1998",
+     "1999",
+     "2000",
+     "2001",
+     "2002",
+     "2003"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MEN13102",
+  "title": "Úrskurðir Siðanefndar Blaðamannafélags Íslands eftir fjölmiðlum 1985-2018",
+  "folder": "Samfelag › Miðlun › Fjölmiðlar › Úrskurðir Siðanefndar Blaðamannafélags Íslands",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 34,
+    "examples": [
+     "1985",
+     "1986",
+     "1987",
+     "1988",
+     "1989",
+     "1990",
+     "1991",
+     "1992"
+    ],
+    "period": "1985 – 2018"
+   },
+   {
+    "name": "Flokkar",
+    "n_values": 9,
+    "examples": [
+     "Alls",
+     "Ríkisútvarpið - Hljóðvarp",
+     "Ríkisútvarpið - Sjónvarp",
+     "Einkarekið hljóðvarp",
+     "Einkarekið sjónvarp",
+     "Dagblöð",
+     "Vikublöð",
+     "Tímarit"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS02143",
+  "title": "Þingmenn kjörnir í Suðurkjördæmi í alþingiskosningum 25. apríl 2009.",
+  "folder": "Ibuar › Kosningar › Alþingiskosningar › Alþingiskosningar - kjörnir þingmenn",
+  "variables": [
+   {
+    "name": "Þingmaður",
+    "n_values": 20,
+    "examples": [
+     "A1  Björgvin G. Sigurðsson (S)",
+     "A2  Ragnheiður Elín Árnadóttir (D)",
+     "A3  Sigurður Ingi Jóhannsson (B)",
+     "A4  Atli Gíslason (V)",
+     "A5  Oddný G. Harðardóttir (S)",
+     "A6  Unnur Brá Konráðsdóttir (D)",
+     "A7  Eygló Þóra Harðardóttir (B)",
+     "A8  Róbert Marshall (S)"
+    ]
+   },
+   {
+    "name": "Tölur",
+    "n_values": 4,
+    "examples": [
+     "Útkomutala, sbr. 2. tölul. 107. gr.",
+     "Landstala, sbr. 1. tölul. 3. mgr. 108. gr.",
+     "Hlutfallstala, sbr. 2. og 3. tölul. 3. mgr. 108. gr.",
+     "Atkvæðatala, sbr. 2. mgr. 110. gr."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MAN10003",
+  "title": "Fluttir eftir aldri, kyni, ríkisfangi og ársfjórðungum 2011-2026",
+  "folder": "Ibuar › Mannfjöldi › Yfirlit › Ársfjórðungstölur",
+  "variables": [
+   {
+    "name": "Ársfjórðungur",
+    "n_values": 62,
+    "examples": [
+     "2011Á1",
+     "2011Á2",
+     "2011Á3",
+     "2011Á4",
+     "2012Á1",
+     "2012Á2",
+     "2012Á3",
+     "2012Á4"
+    ],
+    "period": "2011Á1 – 2026Á2"
+   },
+   {
+    "name": "Atburður",
+    "n_values": 3,
+    "examples": [
+     "Aðfluttir umfram brottflutta",
+     "Aðfluttir",
+     "Brottfluttir"
+    ]
+   },
+   {
+    "name": "Aldur",
+    "n_values": 8,
+    "examples": [
+     "Alls",
+     "Yngri en 10 ára",
+     "10-19 ára",
+     "20-29 ára",
+     "30-39 ára",
+     "40-49 ára",
+     "50-59 ára",
+     "60 ára og eldri"
+    ]
+   },
+   {
+    "name": "Kyn og ríkisfang",
+    "n_values": 5,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur",
+     "Ísl. ríkisborgarar",
+     "Erl. ríkisborgarar"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "KOS02164",
+  "title": "Þingmenn kjörnir í suðvesturkjördæmi í alþingiskosningum 10. maí 2003",
+  "folder": "Ibuar › Kosningar › Alþingiskosningar › Alþingiskosningar - kjörnir þingmenn",
+  "variables": [
+   {
+    "name": "Þingmaður",
+    "n_values": 22,
+    "examples": [
+     "A1  Árni M. Mathiesen (D)",
+     "A2  Guðmundur Árni Stefánsson (S)",
+     "A3  Gunnar I. Birgisson (D)",
+     "A4  Rannveig Guðmundsdóttir (S)",
+     "A5  Siv Friðleifsdóttir (B)",
+     "A6  Sigríður A. Þórðardóttir (D)",
+     "A7  Þórunn Sveinbjarnardóttir (S)",
+     "A8  Þorgerður Katrín Gunnarsdóttir (D)"
+    ]
+   },
+   {
+    "name": "Tala",
+    "n_values": 4,
+    "examples": [
+     "Útkomutala, sbr. 2. tölul. 107. gr.",
+     "Landstala, sbr. 1. tölul. 3. mgr. 108. gr.",
+     "Hlutfallstala, sbr. 2. og 3. tölul. 3. mgr. 108. gr.",
+     "Atkvæðatala, sbr. 2. mgr. 110. gr."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "MAN07602",
+  "title": "Forsjá barna úr sambúðarslitum 1991-2011",
+  "folder": "Ibuar › Fjölskyldan › Fjölskyldan",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 21,
+    "examples": [
+     "1991",
+     "1992",
+     "1993",
+     "1994",
+     "1995",
+     "1996",
+     "1997",
+     "1998"
+    ],
+    "period": "1991 – 2011"
+   },
+   {
+    "name": "Forsjá",
+    "n_values": 5,
+    "examples": [
+     "Börn alls",
+     "Móðir með forsjá",
+     "Faðir með forsjá",
+     "Sameiginleg forsjá",
+     "Aðrir fá forsjá eða ótilgreint"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "HEI09402",
+  "title": "Fólk með fötlun sem fékk þjónustu í desember skipt eftir búsetu, aldri og þjónustusvæðum 2011-2022",
+  "folder": "Samfelag › Félagsmál › Félagsþjónusta sveitarfélaga › Þjónusta við fólk með fötlun",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 12,
+    "examples": [
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015",
+     "2016",
+     "2017",
+     "2018"
+    ],
+    "period": "2011 – 2022"
+   },
+   {
+    "name": "Þjónusutsvæði",
+    "n_values": 16,
+    "examples": [
+     "Alls",
+     "01 Mosfellsbær og Kjósarhreppur",
+     "02 Garðabær",
+     "03 Reykjavík og Seltjarnarnes",
+     "04 Kópavogur",
+     "05 Hafnafjörður",
+     "06 Suðurnes",
+     "07 Vesturland"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Fjöldi",
+     "Hlutfall"
+    ]
+   },
+   {
+    "name": "Þjónusta",
+    "n_values": 11,
+    "examples": [
+     "Alls",
+     "Herbergjasambýli",
+     "Önnur studd búseta fatlaðra",
+     "Studd búseta aldraðra",
+     "Öldrunarstofnun",
+     "Leiguhúsnæði sveitarfélaga",
+     "Leiguhúsnæði  félagasamtaka",
+     "Býr hjá foreldrum/ættingjum"
+    ]
+   },
+   {
+    "name": "Aldur",
+    "n_values": 5,
+    "examples": [
+     "Alls",
+     "0-17 ára",
+     "18-39 ára",
+     "40-66 ára",
+     "67 ára og eldri"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "HEI03106",
+  "title": "Örorkulífeyrisþegar eftir kyni og aldri 2008-2017",
+  "folder": "Samfelag › Félagsmál › Almannatryggingar",
+  "variables": [
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Aldurshópur",
+    "n_values": 12,
+    "examples": [
+     "18-19",
+     "20-24",
+     "25-29",
+     "30-34",
+     "35-39",
+     "40-44",
+     "45-49",
+     "50-54"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 2,
+    "examples": [
+     "Fjöldi",
+     "Hlutfall af aldurshópi"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 10,
+    "examples": [
+     "2008",
+     "2009",
+     "2010",
+     "2011",
+     "2012",
+     "2013",
+     "2014",
+     "2015"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "SKO02102",
+  "title": "Grunnskólanemendur eftir bekkjum og skóla 2001-2025",
+  "folder": "Samfelag › Menntun › Grunnskólastig › Nemendur",
+  "variables": [
+   {
+    "name": "Skóli",
+    "n_values": 253,
+    "examples": [
+     "Alls",
+     "Austurbæjarskóli",
+     "Álftamýrarskóli",
+     "Árbæjarskóli",
+     "Ártúnsskóli",
+     "Barnaskóli Hjallastefnunnar Reykjavík",
+     "Borgaskóli",
+     "Breiðagerðisskóli"
+    ]
+   },
+   {
+    "name": "Ár",
+    "n_values": 25,
+    "examples": [
+     "2001",
+     "2002",
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008"
+    ],
+    "period": "2001 – 2025"
+   },
+   {
+    "name": "Bekkur",
+    "n_values": 13,
+    "examples": [
+     "Alls",
+     "Drengir",
+     "Stúlkur",
+     "1. bekkur",
+     "2. bekkur",
+     "3. bekkur",
+     "4. bekkur",
+     "5. bekkur"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "VIN00951",
+  "title": "Námsmenn - Atvinnuþátttaka, atvinnuleysi, vinnutími og fjöldi starfandi eftir árum 2003-2025",
+  "folder": "Samfelag › Vinnumarkaður › Vinnumarkaðsrannsókn › Vinnumarkaðsrannsókn - árstölur",
+  "variables": [
+   {
+    "name": "Ár",
+    "n_values": 23,
+    "examples": [
+     "2003",
+     "2004",
+     "2005",
+     "2006",
+     "2007",
+     "2008",
+     "2009",
+     "2010"
+    ],
+    "period": "2003 – 2025"
+   },
+   {
+    "name": "Kyn",
+    "n_values": 3,
+    "examples": [
+     "Karlar og konur",
+     "Karlar",
+     "Konur"
+    ]
+   },
+   {
+    "name": "Aldur",
+    "n_values": 3,
+    "examples": [
+     "Alls",
+     "16-24",
+     "25-74"
+    ]
+   },
+   {
+    "name": "Eining",
+    "n_values": 8,
+    "examples": [
+     "Námsmenn",
+     "Atvinnuþátttaka",
+     "Hlutfall starfandi",
+     "Atvinnuleysi",
+     "Vinnuafl",
+     "Starfandi",
+     "Atvinnulausir",
+     "Heildarvinnutími"
+    ]
+   }
+  ]
+ }
+]

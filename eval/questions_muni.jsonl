@@ -1,0 +1,24 @@
+{"q": "Hvað búa margir í Kópavogi?", "table": ["MAN02005", "MAN10001", "MAN02008"], "style": "casual"}
+{"q": "Hvað bjuggu margar konur í Vestmannaeyjum 1. janúar 2026?", "table": ["MAN02005", "MAN10001"], "style": "specific"}
+{"q": "Hver var meðalmannfjöldi í Hafnarfirði árið 2025?", "table": ["MAN02008"], "style": "specific"}
+{"q": "Meðalfjöldi íbúa í Hveragerði 2020", "table": ["MAN02008"], "style": "variant"}
+{"q": "Hversu margir fluttu til Akureyrar árið 2024?", "table": ["MAN01201"], "style": "specific"}
+{"q": "Hvað fluttu margir frá Fjarðabyggð í fyrra?", "table": ["MAN01201"], "style": "casual"}
+{"q": "Hversu margir dóu í Hafnarfirði árið 2023?", "table": ["MAN05221"], "style": "casual"}
+{"q": "Dánir á Hornafirði eftir aldri", "table": ["MAN05221"], "style": "variant"}
+{"q": "Hvað fæddust mörg börn í Kópavogi árið 2025?", "table": ["MAN05110"], "style": "specific"}
+{"q": "Hvað fæðast mörg börn á ári í Vestmannaeyjum?", "table": ["MAN05110"], "style": "casual"}
+{"q": "Hversu margar kjarnafjölskyldur eru í Reykjavík?", "table": ["MAN07108"], "style": "specific"}
+{"q": "Hvað eru margir einstæðir foreldrar í Mýrdalshreppi?", "table": ["MAN07108"], "style": "casual"}
+{"q": "Hversu margir erlendir ríkisborgarar búa á Akranesi?", "table": ["MAN04203", "MAN04208"], "style": "specific"}
+{"q": "Hvað eru margir pólskir ríkisborgarar í Árborg?", "table": ["MAN04203", "MAN04208"], "style": "casual"}
+{"q": "Hversu margir innflytjendur bjuggu á Seltjarnarnesi 2026?", "table": ["MAN43005"], "style": "specific"}
+{"q": "Fjöldi innflytjenda í Múlaþingi", "table": ["MAN43005"], "style": "variant"}
+{"q": "Hver var kosningaþátttaka í Kópavogi í sveitarstjórnarkosningunum 2022?", "table": ["KOS03204b"], "style": "specific"}
+{"q": "Hvað kusu margir í Hveragerði í sveitarstjórnarkosningunum 2022?", "table": ["KOS03204b", "KOS03208a"], "style": "casual"}
+{"q": "Hver eru meðaltekjur í Garðabæ?", "table": ["TEK01002"], "style": "casual"}
+{"q": "Heildartekjur kvenna á Hornafirði 2025", "table": ["TEK01002"], "style": "variant"}
+{"q": "Hversu margar gistinætur voru í Vestmannaeyjum árið 2025?", "table": ["SAM01603"], "style": "specific"}
+{"q": "Hvað komu margir gestir á gististaði á Akureyri í fyrra?", "table": ["SAM01603"], "style": "casual"}
+{"q": "Hvað búa margir útlendingar í Bolungarvík eftir fæðingarlandi?", "table": ["MAN12104"], "style": "variant"}
+{"q": "Hversu margir íbúar í Grindavík eru fæddir erlendis?", "table": ["MAN12104"], "style": "specific"}

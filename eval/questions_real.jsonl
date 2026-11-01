@@ -1,0 +1,11 @@
+{"q": "Hvert er hlutfall kynjanna á íslandi?", "table": ["MAN00101"], "source": "user 2026-10-24"}
+{"q": "hvað eru margir múslimar á íslandi?", "table": ["MAN10001"], "source": "user 2026-10-24", "note": "MAN10001 id is shared by the religion table and a municipality table"}
+{"q": "hvað búa margir á stokkseyri?", "table": ["MAN030101", "MAN030102"], "source": "user 2026-10-24", "note": "Stokkseyri is a locality (byggðakjarni), not a municipality"}
+{"q": "hver er meðalaldurinn á kópaskeri?", "table": ["MAN030101", "MAN030102"], "source": "user 2026-10-24", "note": "no mean-age-by-locality table; computable from age distribution"}
+{"q": "hvað fæddust mörg börn árið 1950?", "table": ["MAN05203", "MAN05204", "MAN05201", "MAN05302"], "source": "user 2026-10-24"}
+{"q": "hvað er veiddur mikill fiskur á íslandi?", "table": ["SJA09005", "SJA01101", "SJA01102", "SJA02201", "SJA09001"], "source": "user 2026-10-24"}
+{"q": "hvað eru margir í þjóðkyrkjunni?", "table": ["MAN10001"], "source": "user 2026-10-24", "note": "typo þjóðkyrkjunni; MAN10001 id shared"}
+{"q": "hvað eru margir bílar í reykjavík?", "table": ["CEN1614", "SAM03105"], "source": "user 2026-10-24", "note": "no current vehicles-by-municipality table; CEN1614 = household car ownership by municipality (census)"}
+{"q": "hver er munurinn á fæðingum árið 2050 og 2026?", "table": ["MAN09012"], "source": "user 2026-10-24", "note": "projection"}
+{"q": "hvað var algeingasta nafnið árið 2010?", "table": ["MAN11105", "MAN11115", "MAN11101", "MAN11111"], "source": "user 2026-10-24", "note": "typo algeingasta; no names-by-year table, closest is names by age group 2023"}
+{"q": "Hvað var framleitt mikið af áli á ísladi árið 2019 miða við árið 2026?", "table": ["UTA06105", "UTA06103", "UTA06101", "UTA06108", "UTA05003"], "source": "user 2026-10-24", "note": "typos ísladi, miða; no production table, only aluminium exports"}

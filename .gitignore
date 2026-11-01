@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+data_crawl.log
+.omc/
+.pytest_cache/
+data/question_vectors.sqlite
+data/corrections.sqlite
+eval/results/
+models/
+data/emb_*.npy
+!data/emb_bge-m3_*.npy
+ui-screenshots/

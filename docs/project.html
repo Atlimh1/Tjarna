@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Spurðu Hagstofuna: project description and results</title>
+<style>
+  @page { size: A4; margin: 12mm 14mm 12mm 14mm; }
+  :root { --ink: #17182b; --muted: #5d6070; --line: #d9dce6; --llm: #6631d7; --llm-bg: #f1edfd; --code: #7a5c00;
+          --code-bg: #fff6d9; --data: #217346; --data-bg: #e7f2ec; --io: #9a9cb0; --io-bg: #eef0f6; }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: var(--ink); background: #fff; font: 9.8pt/1.45 "Segoe UI", Calibri, Arial, sans-serif; }
+  h1 { font-size: 17pt; margin: 0 0 2px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 0 0 8px; font-size: 9.2pt; }
+  h2 { font-size: 11.2pt; margin: 10px 0 4px; padding-bottom: 2px; border-bottom: 1px solid var(--line); }
+  p { margin: 0 0 6px; }
+  ul { margin: 0 0 6px; padding-left: 14px; list-style: none; }
+  li { margin-bottom: 3px; position: relative; }
+  li::before { content: "•"; position: absolute; left: -11px; color: var(--muted); }
+  b { font-weight: 600; }
+  table { border-collapse: collapse; width: 100%; margin: 4px 0 6px; font-size: 9.1pt; }
+  th, td { border-bottom: 1px solid var(--line); padding: 3px 6px; text-align: left; vertical-align: top; }
+  th { background: #f4f5f8; font-weight: 600; }
+  td.n { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .ladder { display: flex; gap: 4px; margin: 4px 0 6px; }
+  .ladder div { flex: 1; border: 1px solid var(--line); border-radius: 5px; padding: 3px 5px; font-size: 8.3pt; }
+  .ladder b { display: block; font-size: 11pt; }
+  figure { margin: 4px 0 6px; break-inside: avoid; }
+  .diagram { border: 1px solid var(--line); border-radius: 8px; padding: 6px 4px 2px; background: #fcfcfb; }
+  .diagram .mermaid { margin: 0; text-align: center; font: 14px/1.3 "Segoe UI", Calibri, Arial, sans-serif; }
+  figcaption { color: var(--muted); font-size: 8.4pt; margin-top: 4px; }
+  .legend { display: inline-flex; gap: 12px; margin-left: 8px; }
+  .legend span::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 4px;
+                         vertical-align: -1px; border: 1px solid; }
+  .legend .l::before { background: var(--llm-bg); border-color: var(--llm); }
+  .legend .c::before { background: var(--code-bg); border-color: var(--code); }
+  .legend .d::before { background: var(--data-bg); border-color: var(--data); }
+  .legend .o::before { background: var(--io-bg); border-color: var(--io); }
+  .note { color: var(--muted); font-size: 8.6pt; }
+  .keep { break-inside: avoid; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: "loose" });</script>
+</head>
+<body>
+
+<h1>Spurðu Hagstofuna (Ask Statistics Iceland)</h1>
+<p class="sub">Project description and results · Gagnaþon 2026, Track 2 (direct PX-API) · Team: Atli and Soukaïna, who built it
+together · Code: github.com/Atlimh1/Tjarna</p>
+
+<h2>What we set out to achieve</h2>
+<p>A chatbot anyone can ask about Statistics Iceland’s figures, in Icelandic, in English or in another language, that answers
+with the official number, its unit and period, and the table it came from, and that never invents a number. One principle
+runs through the design: <b>the model chooses, code does the rest</b>. The language model picks the table and the values and
+writes the sentence; code finds the candidate tables, reads the numbers, does every calculation, checks every number in the
+answer against the data and cites the source, with the exact PX-API query that reproduces it.</p>
+
+<h2>How it works</h2>
+<figure>
+<div class="diagram">
+<div class="mermaid">
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Segoe UI, Calibri, Arial, sans-serif", "fontSize": "14px", "primaryTextColor": "#17182b", "lineColor": "#5d6070", "clusterBkg": "#ffffff", "clusterBorder": "#d9dce6"}, "flowchart": {"nodeSpacing": 22, "rankSpacing": 30, "padding": 14, "curve": "basis", "htmlLabels": true}}}%%
+flowchart TB
+  subgraph R1["1 · Front door: many rule checks, then one last LLM check"]
+    direction LR
+    Q(["Question<br/>IS, EN or 19 more<br/>languages"]):::io --> C["Clean + rules, no LLM<br/>injection, personal<br/>data, harm, gibberish"]:::code
+    C --> L["Split<br/>up to 5 questions,<br/>in parallel"]:::code
+    L --> S{{"Statistics question?<br/>the last check,<br/>one LLM call"}}:::llm
+    S --> G["Language<br/>IS, EN straight in;<br/>others via English"]:::code
+  end
+  subgraph R2["2 · Understand, then find the table: four searches, no LLM"]
+    direction LR
+    U["Understand<br/>dates in code; LLM splits<br/>into up to 4 sub-questions"]:::llm --> N["Letter pieces<br/>scikit-learn TF-IDF"]:::code
+    U --> B["Base forms<br/>islenska (BÍN)"]:::code
+    U --> E["bge-m3 vectors<br/>base and our fine-tuned"]:::code
+    N --> F["Fusion + checker<br/>reciprocal rank;<br/>place, year check"]:::code
+    B --> F
+    E --> F
+    F --> P["Pick table + values<br/>from the top 12;<br/>codes validated"]:::llm
+  end
+  subgraph R3["3 · Read and check"]
+    direction LR
+    D[("Read the numbers<br/>release, else<br/>the PX-Web API")]:::data --> K{"Self-check<br/>do the rows<br/>answer it?"}:::llm
+    K -->|"yes"| M["Compute in code<br/>share, change, per head,<br/>units made whole"]:::code
+    K -->|"no: next table, up to 3"| X["No data, said so<br/>+ 3 suggestions,<br/>each checked"]:::code
+  end
+  subgraph R4["4 · Answer"]
+    direction LR
+    W["Write<br/>the sentence"]:::llm --> V["Verify every number<br/>against the data"]:::code --> A(["Answer<br/>sources, data, PX-API query,<br/>confidence, other periods"]):::io
+  end
+  R1 --> R2 --> R3 --> R4
+  classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
+  classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
+  classDef data fill:#e7f2ec,stroke:#217346,stroke-width:1.5px,color:#17182b
+  classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
+</div>
+</div>
+<figcaption>Architecture of one question.<span class="legend"><span class="l">language model (Gemma 4 31B)</span><span class="c">code</span><span class="d">data</span><span class="o">question and answer</span></span><br>
+Runs on: vLLM serving Gemma 4 31B on 4 A100 GPUs on the JURECA supercomputer (Jülich), where our search model was also
+fine-tuned; the pipeline, a FastAPI service and the web page on a Raspberry Pi 5 or a JURECA login node.</figcaption>
+</figure>
+<ul>
+  <li><b>Front door: many rule checks, then one last LLM check.</b> A short follow-up is rewritten with the question before,
+  and the text is cleaned (broken encoding, pasted text; 500 characters at most). Rules with no model stop injection,
+  personal data, harm, abuse, gibberish and plain sums; a message about self-harm gets the helpline numbers. A message is
+  split into up to 5 questions, answered in parallel. For each, after the rules, one LLM call is the last check: is it a
+  statistics question at all? Our table picker always picks a table (that answers more real questions right), so without
+  this an off-topic message would get a number from some table; the rules stopped 0 of 16 off-topic inputs, and a cut-off
+  on the search score could not tell them apart. Then Icelandic and English go straight in; other languages go through
+  English, with every number checked twice.</li>
+  <li><b>The data (Track 2).</b> The organizers’ release, 1,886 tables in Icelandic and English as of 18 Oct 2026, and
+  Statistics Iceland’s public PX-Web API. No question comes with its table. A crawler walked the API’s folder tree, one
+  request a second, and saved every table’s path, titles and value codes. Numbers are read from the release, else from the
+  live API, and a button re-reads them live to say whether a figure is still the newest.</li>
+  <li><b>Finding the table, with no language model</b> (the starter kit’s weak spot). Four searches over one index of both
+  languages: scikit-learn TF-IDF on 3 to 5 letter pieces (typos, word forms); Icelandic base forms from BÍN (islenska) with
+  synonyms and place names; bge-m3 vectors (sentence-transformers), computed once per table and compared by cosine
+  similarity; and a bge-m3 we fine-tuned on JURECA with 4,580 questions that Qwen3-30B wrote for 924 tables (21 minutes on
+  4 A100s). Reciprocal rank fusion joins them, English questions are also searched in Icelandic, and a checker moves down
+  tables that lack the place, country or year asked. The top 12 go to the model.</li>
+  <li><b>The model chooses, code checks.</b> The model picks the table and the value codes; code drops codes the table does not
+  have and fills what the question left open with the newest period or the total, says so in the answer (“Miðað við: Ár
+  2026”) and offers other periods or places as buttons. Dates like “í fyrra” become years in code. A self-check asks whether
+  the rows answer the question; if not, the next table, up to three, else “no data”. A year not published yet gets the
+  newest figure, said so; a look-alike table that holds another figure is named under the answer.</li>
+  <li><b>Several tables.</b> The model splits a question into up to four sub-questions, one table each, read in parallel;
+  anything beyond four is named in the answer, never dropped.</li>
+  <li><b>Code computes and checks.</b> Differences, percent changes, shares, ratios, rates per 1,000, sums, averages and
+  whitelisted multi-step formulas, with units made whole first (millions of krónur per inhabitant). After writing, code
+  checks every number in the answer against the data; if one fails, the rows are shown as they are.</li>
+  <li><b>No data, said plainly.</b> A subject map (the release’s 155 folders, each with everyday words from one LLM call, 148
+  words corrected by hand) adds the subject’s tables; the model writes up to six close questions, each is asked for real,
+  and the first three that answer are offered as buttons.</li>
+  <li><b>Every answer shows</b> its tables and values, the unit, the table’s own note, a citation, the PX-API query, a
+  confidence measured on our tests and the response time.</li>
+</ul>
+
+<h2>Results on Statistics Iceland’s data</h2>
+<p>Benchmarked with the organizers’ own <code>gagnvist evaluate</code>, unchanged: an answer is right only if it states every
+expected number and cites a table that holds it. Expected numbers are read from the data release by code, not typed.</p>
+<table class="keep">
+  <tr><th>Question set</th><th>What it is</th><th>Right</th></tr>
+  <tr><td>Organizers’ 60</td><td>their test questions: easy, medium (calculation), hard (two tables); Icelandic and English</td><td class="n">60 / 60</td></tr>
+  <tr><td>Set 1 (frozen)</td><td>41 new questions we wrote before any fix aimed at them</td><td class="n">39 / 41</td></tr>
+  <tr><td>Set 2 (frozen)</td><td>45 questions written by a separate AI agent from the catalog; never tuned on</td><td class="n">37 / 45</td></tr>
+  <tr><td>real2 (frozen)</td><td>42 questions typed by us the way people type: typos, five languages, traps</td><td class="n">33 / 42</td></tr>
+  <tr><td>dev3</td><td>62 questions over 61 tables no other set uses, written blind on 1 Nov (typos, relative dates, places)</td><td class="n">45 / 62</td></tr>
+  <tr><td>Should be declined</td><td>questions Statistics Iceland does not publish (earthquakes, a firm’s profit, forecasts)</td><td class="n">27 / 28</td></tr>
+  <tr><td>Other languages</td><td>19 languages, 2 questions each: the same numbers as the English original</td><td class="n">37 / 38</td></tr>
+  <tr><td>Guard</td><td>bad inputs stopped (injection, gibberish, harm, personal data, off-topic); real questions wrongly refused</td><td class="n">165 / 165; 2 of 1,008</td></tr>
+</table>
+<p><b>What each step adds</b> (the organizers’ 60, Gemma 4 31B; each rung adds one part of the system):</p>
+<div class="ladder keep">
+  <div>Model alone<b>0</b></div><div>Embedding search, like the starter kit<b>7</b></div><div>Our search<b>16</b></div>
+  <div>+ picking the table<b>22</b></div><div>+ calculation in code<b>38</b></div><div>+ sub-questions<b>58</b></div>
+  <div>Full system<b>60</b></div>
+</div>
+<p><b>Baselines and speed.</b> The starter kit answered 7 of its own 52 test questions, and the organizers’ pipeline run with
+our Qwen3-30B 8 of the 60. Ours takes about 4 to 5 s per answer; 10 questions sent at once were all answered in 19.4 s, with
+no errors. The 60 shaped many of our rules, so the frozen and blind sets (73% to 95%) are the fairer picture of new questions.</p>
+
+<h2>Limits</h2>
+<ul>
+  <li>Look-alike tables that count differently (dental care paid by households or by all private payers): the answer names
+  the other figure, but its first choice can be the less fitting table.</li>
+  <li>Some questions have two official figures (turnout by two definitions); years before 1998 split by place are rarely
+  found (Reykjavík in 1950).</li>
+  <li>The release is the snapshot of 18 Oct 2026, with a live check; the model runs as a booked job on a supercomputer, and
+  the Raspberry Pi runs three of the four searches (no GPU there for our fine-tuned model).</li>
+</ul>
+
+<h2>What we would do next</h2>
+<ul>
+  <li>Test on real questions from real people, and fine-tune the search with them and with more English questions.</li>
+  <li>Tell look-alike tables apart better: table cards with each table’s notes made the picker worse when we measured them (the
+  60 fell from 60 to 54), so the notes are shown to the user under each answer instead.</li>
+  <li>Run on smaller hardware (a single GPU or a DGX Spark) with a smaller model.</li>
+</ul>
+
+<h2>AI tools used</h2>
+<ul>
+  <li><b>Claude Code</b> (Anthropic, Claude models) as a programming assistant under our direction: writing and refactoring
+  code, running and analysing experiments on JURECA, building evaluation sets (set 2 and dev3 were written by separate agents
+  that never saw the pipeline), and drafting documentation. Every change was measured on held-out question sets before it
+  was kept, and we reviewed and decided on each design choice.</li>
+  <li><b>Claude</b> (claude.ai chat) to plan the work and get second opinions on our choices.</li>
+  <li><b>Models inside the product</b>, all open-weight and free to use: Gemma 4 31B (answers), Qwen3-30B-A3B (second
+  opinion, and the questions our search model was fine-tuned on), bge-m3 and our fine-tuned bge-m3 (search), with
+  GreynirCorrect and BÍN for Icelandic spelling and base forms.</li>
+</ul>
+<p class="note">Data © Statistics Iceland (Hagstofa Íslands), CC BY 4.0. Code under the MIT licence.</p>
+
+</body>
+</html>
