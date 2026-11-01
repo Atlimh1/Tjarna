@@ -41,6 +41,7 @@
   .step p { margin: 0; font-size: 8.6pt; line-height: 1.32; }
   .step .mermaid { border: 1px solid var(--line); border-radius: 6px; padding: 4px 2px; background: #fcfcfb; text-align: center;
                    font: 13px/1.3 "Segoe UI", Calibri, Arial, sans-serif; }
+  .dg { display: flex; flex-direction: column; gap: 4px; }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
 <script>mermaid.initialize({ startOnLoad: true, securityLevel: "loose", theme: "base", themeVariables: { fontFamily: "Segoe UI, Calibri, Arial, sans-serif", fontSize: "12px", primaryTextColor: "#17182b", lineColor: "#5d6070", clusterBkg: "#ffffff", clusterBorder: "#d9dce6" }, flowchart: { nodeSpacing: 10, rankSpacing: 18, padding: 6, curve: "basis", htmlLabels: true, useMaxWidth: true } });</script>
@@ -111,10 +112,8 @@ flowchart LR
 </div>
 
 <div class="step">
-<p><b>3 · Finding the table, with no language model</b> (the starter kit’s weak spot). Four searches over one index of both
-languages, joined by reciprocal rank fusion. Our bge-m3 was fine-tuned on JURECA with 4,580 questions that Qwen3-30B wrote
-for 924 tables (21 minutes on 4 A100s); table vectors are computed once and compared by cosine similarity.</p>
-<div class="mermaid">
+<p><b>3 · Finding the table, with no language model</b> (the starter kit’s weak spot). Four searches over one index of both languages, joined by reciprocal rank fusion; table vectors are computed once and compared by cosine similarity. <b>How we fine-tuned bge-m3</b>, in one JURECA job of 21 minutes on 4 A100s: Qwen3-30B, served with vLLM, wrote about five questions per table, 4,580 for 924 tables that are in none of our test sets; then bge-m3 learned to place each question next to its own table, with the other tables in its batch of 32 as wrong answers (contrastive training, one pass, 144 steps, 30 seconds). With it the full system got 56 of the organizers’ 60, against 54 with the base model.</p>
+<div class="dg"><div class="mermaid">
 flowchart LR
   Q(["Question"]):::io
   T1["Letter pieces<br/>scikit-learn TF-IDF"]:::code
@@ -131,7 +130,13 @@ flowchart LR
   classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
   classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
   classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
-</div>
+</div><div class="mermaid">
+flowchart LR
+  T(["924 tables in none<br/>of our test sets"]):::io --> G["Qwen3-30B on vLLM<br/>writes 4,580 questions,<br/>about 5 per table"]:::llm --> L["Train bge-m3<br/>question next to its table;<br/>batch’s other tables wrong"]:::code --> M(["Our bge-m3<br/>30 s of training,<br/>21 min job, 4 A100s"]):::io
+  classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
+  classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
+  classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
+</div></div>
 </div>
 
 <div class="step">
