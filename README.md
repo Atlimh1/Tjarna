@@ -3,8 +3,8 @@
 A chatbot anyone can ask about Statistics Iceland's figures, in Icelandic, in English or in another language. It
 answers with the official number, its unit and period, and the table it came from, and it never invents a number.
 
-Gagnaþon 2026, Track 2 (direct PX-API). Team: Atli and Soukaïna.
-Project description (2 pages): [docs/project.html](docs/project.html) · how we got here, run by run: [WRITEUP.md](WRITEUP.md)
+Gagnaþon 2026, Track 2 (direct PX-API). Team Tjarna: Atli and Soukaïna. Code: https://github.com/Atlimh1/Tjarna
+Project description and results (3 pages): [docs/Spurdu-Hagstofuna-project.pdf](docs/Spurdu-Hagstofuna-project.pdf), source [docs/project.html](docs/project.html) · how we got here, run by run: [WRITEUP.md](WRITEUP.md)
 
 **The principle: the model chooses, code does the rest.** The language model picks the table and the values and
 writes the sentence. Code fetches the numbers, does every calculation, checks every number in the answer against the

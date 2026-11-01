@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <title>Spurðu Hagstofuna: project description and results</title>
 <style>
-  @page { size: A4; margin: 12mm 14mm 12mm 14mm; }
+  @page { size: A4; margin: 10mm 12mm 10mm 12mm; }
   :root { --ink: #17182b; --muted: #5d6070; --line: #d9dce6; --llm: #6631d7; --llm-bg: #f1edfd; --code: #7a5c00;
           --code-bg: #fff6d9; --data: #217346; --data-bg: #e7f2ec; --io: #9a9cb0; --io-bg: #eef0f6; }
   * { box-sizing: border-box; }
-  body { margin: 0; color: var(--ink); background: #fff; font: 9.8pt/1.45 "Segoe UI", Calibri, Arial, sans-serif; }
+  body { margin: 0; color: var(--ink); background: #fff; font: 9.3pt/1.38 "Segoe UI", Calibri, Arial, sans-serif; }
   h1 { font-size: 17pt; margin: 0 0 2px; letter-spacing: -0.01em; }
   .sub { color: var(--muted); margin: 0 0 8px; font-size: 9.2pt; }
-  h2 { font-size: 11.2pt; margin: 10px 0 4px; padding-bottom: 2px; border-bottom: 1px solid var(--line); }
+  h2 { font-size: 11pt; margin: 8px 0 3px; padding-bottom: 2px; border-bottom: 1px solid var(--line); }
   p { margin: 0 0 6px; }
   ul { margin: 0 0 6px; padding-left: 14px; list-style: none; }
   li { margin-bottom: 3px; position: relative; }
@@ -37,9 +37,13 @@
   .legend .o::before { background: var(--io-bg); border-color: var(--io); }
   .note { color: var(--muted); font-size: 8.6pt; }
   .keep { break-inside: avoid; }
+  .step { break-inside: avoid; margin: 2px 0 6px; display: grid; grid-template-columns: 31% 1fr; gap: 8px; align-items: center; }
+  .step p { margin: 0; font-size: 8.6pt; line-height: 1.32; }
+  .step .mermaid { border: 1px solid var(--line); border-radius: 6px; padding: 4px 2px; background: #fcfcfb; text-align: center;
+                   font: 13px/1.3 "Segoe UI", Calibri, Arial, sans-serif; }
 </style>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({ startOnLoad: true, securityLevel: "loose" });</script>
+<script>mermaid.initialize({ startOnLoad: true, securityLevel: "loose", theme: "base", themeVariables: { fontFamily: "Segoe UI, Calibri, Arial, sans-serif", fontSize: "12px", primaryTextColor: "#17182b", lineColor: "#5d6070", clusterBkg: "#ffffff", clusterBorder: "#d9dce6" }, flowchart: { nodeSpacing: 10, rankSpacing: 18, padding: 6, curve: "basis", htmlLabels: true, useMaxWidth: true } });</script>
 </head>
 <body>
 
@@ -58,81 +62,155 @@ answer against the data and cites the source, with the exact PX-API query that r
 <figure>
 <div class="diagram">
 <div class="mermaid">
-%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Segoe UI, Calibri, Arial, sans-serif", "fontSize": "14px", "primaryTextColor": "#17182b", "lineColor": "#5d6070", "clusterBkg": "#ffffff", "clusterBorder": "#d9dce6"}, "flowchart": {"nodeSpacing": 22, "rankSpacing": 30, "padding": 14, "curve": "basis", "htmlLabels": true}}}%%
-flowchart TB
-  subgraph R1["1 · Front door: many rule checks, then one last LLM check"]
-    direction LR
-    Q(["Question<br/>IS, EN or 19 more<br/>languages"]):::io --> C["Clean + rules, no LLM<br/>injection, personal<br/>data, harm, gibberish"]:::code
-    C --> L["Split<br/>up to 5 questions,<br/>in parallel"]:::code
-    L --> S{{"Statistics question?<br/>the last check,<br/>one LLM call"}}:::llm
-    S --> G["Language<br/>IS, EN straight in;<br/>others via English"]:::code
-  end
-  subgraph R2["2 · Understand, then find the table: four searches, no LLM"]
-    direction LR
-    U["Understand<br/>dates in code; LLM splits<br/>into up to 4 sub-questions"]:::llm --> N["Letter pieces<br/>scikit-learn TF-IDF"]:::code
-    U --> B["Base forms<br/>islenska (BÍN)"]:::code
-    U --> E["bge-m3 vectors<br/>base and our fine-tuned"]:::code
-    N --> F["Fusion + checker<br/>reciprocal rank;<br/>place, year check"]:::code
-    B --> F
-    E --> F
-    F --> P["Pick table + values<br/>from the top 12;<br/>codes validated"]:::llm
-  end
-  subgraph R3["3 · Read and check"]
-    direction LR
-    D[("Read the numbers<br/>release, else<br/>the PX-Web API")]:::data --> K{"Self-check<br/>do the rows<br/>answer it?"}:::llm
-    K -->|"yes"| M["Compute in code<br/>share, change, per head,<br/>units made whole"]:::code
-    K -->|"no: next table, up to 3"| X["No data, said so<br/>+ 3 suggestions,<br/>each checked"]:::code
-  end
-  subgraph R4["4 · Answer"]
-    direction LR
-    W["Write<br/>the sentence"]:::llm --> V["Verify every number<br/>against the data"]:::code --> A(["Answer<br/>sources, data, PX-API query,<br/>confidence, other periods"]):::io
-  end
-  R1 --> R2 --> R3 --> R4
+flowchart LR
+  Q(["Question"]):::io --> F["1 · Front door"]:::code --> D[("2 · Data")]:::data --> S["3 · Find the table"]:::code --> P["4 · Pick + check"]:::llm --> M["5 · Several tables"]:::llm --> C["6 · Compute + verify"]:::code --> A(["Answer"]):::io
+  P -->|no table fits| N["7 · No data"]:::code
   classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
   classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
   classDef data fill:#e7f2ec,stroke:#217346,stroke-width:1.5px,color:#17182b
   classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
 </div>
 </div>
-<figcaption>Architecture of one question.<span class="legend"><span class="l">language model (Gemma 4 31B)</span><span class="c">code</span><span class="d">data</span><span class="o">question and answer</span></span><br>
+<figcaption>Architecture overview; each numbered part has its own diagram below.<span class="legend"><span class="l">language model (Gemma 4 31B)</span><span class="c">code</span><span class="d">data</span><span class="o">question and answer</span></span><br>
 Runs on: vLLM serving Gemma 4 31B on 4 A100 GPUs on the JURECA supercomputer (Jülich), where our search model was also
 fine-tuned; the pipeline, a FastAPI service and the web page on a Raspberry Pi 5 or a JURECA login node.</figcaption>
 </figure>
-<ul>
-  <li><b>Front door: many rule checks, then one last LLM check.</b> A short follow-up is rewritten with the question before,
-  and the text is cleaned (broken encoding, pasted text; 500 characters at most). Rules with no model stop injection,
-  personal data, harm, abuse, gibberish and plain sums; a message about self-harm gets the helpline numbers. A message is
-  split into up to 5 questions, answered in parallel. For each, after the rules, one LLM call is the last check: is it a
-  statistics question at all? Our table picker always picks a table (that answers more real questions right), so without
-  this an off-topic message would get a number from some table; the rules stopped 0 of 16 off-topic inputs, and a cut-off
-  on the search score could not tell them apart. Then Icelandic and English go straight in; other languages go through
-  English, with every number checked twice.</li>
-  <li><b>The data (Track 2).</b> The organizers’ release, 1,886 tables in Icelandic and English as of 18 Oct 2026, and
-  Statistics Iceland’s public PX-Web API. No question comes with its table. A crawler walked the API’s folder tree, one
-  request a second, and saved every table’s path, titles and value codes. Numbers are read from the release, else from the
-  live API, and a button re-reads them live to say whether a figure is still the newest.</li>
-  <li><b>Finding the table, with no language model</b> (the starter kit’s weak spot). Four searches over one index of both
-  languages: scikit-learn TF-IDF on 3 to 5 letter pieces (typos, word forms); Icelandic base forms from BÍN (islenska) with
-  synonyms and place names; bge-m3 vectors (sentence-transformers), computed once per table and compared by cosine
-  similarity; and a bge-m3 we fine-tuned on JURECA with 4,580 questions that Qwen3-30B wrote for 924 tables (21 minutes on
-  4 A100s). Reciprocal rank fusion joins them, English questions are also searched in Icelandic, and a checker moves down
-  tables that lack the place, country or year asked. The top 12 go to the model.</li>
-  <li><b>The model chooses, code checks.</b> The model picks the table and the value codes; code drops codes the table does not
-  have and fills what the question left open with the newest period or the total, says so in the answer (“Miðað við: Ár
-  2026”) and offers other periods or places as buttons. Dates like “í fyrra” become years in code. A self-check asks whether
-  the rows answer the question; if not, the next table, up to three, else “no data”. A year not published yet gets the
-  newest figure, said so; a look-alike table that holds another figure is named under the answer.</li>
-  <li><b>Several tables.</b> The model splits a question into up to four sub-questions, one table each, read in parallel;
-  anything beyond four is named in the answer, never dropped.</li>
-  <li><b>Code computes and checks.</b> Differences, percent changes, shares, ratios, rates per 1,000, sums, averages and
-  whitelisted multi-step formulas, with units made whole first (millions of krónur per inhabitant). After writing, code
-  checks every number in the answer against the data; if one fails, the rows are shown as they are.</li>
-  <li><b>No data, said plainly.</b> A subject map (the release’s 155 folders, each with everyday words from one LLM call, 148
-  words corrected by hand) adds the subject’s tables; the model writes up to six close questions, each is asked for real,
-  and the first three that answer are offered as buttons.</li>
-  <li><b>Every answer shows</b> its tables and values, the unit, the table’s own note, a citation, the PX-API query, a
-  confidence measured on our tests and the response time.</li>
-</ul>
+
+<div class="step">
+<p><b>1 · Front door: many rule checks, then one last LLM check.</b> Rules with no model stop injection, personal data,
+harm, abuse, gibberish and plain sums. One LLM call is the last check: is it a statistics question at all? Our table
+picker always picks a table, so without it an off-topic message would get a number from some table; the rules stopped 0
+of 16 off-topic inputs, and a search-score cut-off could not tell them apart.</p>
+<div class="mermaid">
+flowchart LR
+  A["Follow-up?<br/>rewritten with the<br/>question before"]:::code --> B["Clean<br/>repair the text,<br/>500 characters max"]:::code --> C{"Rules<br/>no LLM"}:::code
+  C -->|ok| D["Split<br/>up to 5 questions,<br/>in parallel"]:::code --> E{{"Statistics<br/>question?<br/>one LLM call"}}:::llm
+  E -->|yes| G["Language<br/>IS, EN straight in;<br/>others via English"]:::code
+  C -->|"injection, personal data,<br/>harm, gibberish"| X(["Stopped, polite reply;<br/>self-harm: 1717, 112"]):::io
+  E -->|no| Y(["Off-topic reply<br/>+ example questions"]):::io
+  classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
+  classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
+  classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
+</div>
+</div>
+
+<div class="step">
+<p><b>2 · The data (Track 2).</b> The organizers’ release, 1,886 tables in Icelandic and English as of 18 Oct 2026, and
+Statistics Iceland’s public PX-Web API. No question comes with its table. Our crawler walked the API’s folder tree, one
+request a second, and saved every table’s path, titles and value codes; every answer shows its exact PX-API query, and a
+button re-reads it live.</p>
+<div class="mermaid">
+flowchart LR
+  K["Crawler<br/>GET the API’s folder tree,<br/>1 request a second"]:::code --> CAT[("Catalog<br/>every table’s path,<br/>titles and codes")]:::data --> T["Chosen table<br/>+ value codes"]:::llm --> P["PX-API query<br/>POST, json-stat2"]:::code --> R{"In the<br/>release?"}:::code
+  R -->|yes| X[("px file<br/>of the release")]:::data
+  R -->|no| L[("Live<br/>PX-Web API")]:::data
+  classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
+  classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
+  classDef data fill:#e7f2ec,stroke:#217346,stroke-width:1.5px,color:#17182b
+</div>
+</div>
+
+<div class="step">
+<p><b>3 · Finding the table, with no language model</b> (the starter kit’s weak spot). Four searches over one index of both
+languages, joined by reciprocal rank fusion. Our bge-m3 was fine-tuned on JURECA with 4,580 questions that Qwen3-30B wrote
+for 924 tables (21 minutes on 4 A100s); table vectors are computed once and compared by cosine similarity.</p>
+<div class="mermaid">
+flowchart LR
+  Q(["Question"]):::io
+  T1["Letter pieces<br/>scikit-learn TF-IDF"]:::code
+  T2["Base forms<br/>islenska (BÍN),<br/>synonyms, places"]:::code
+  T3["bge-m3 vectors<br/>sentence-transformers"]:::code
+  T4["Our bge-m3<br/>fine-tuned on JURECA"]:::code
+  F["Fusion<br/>sum of 1 / (60 + rank)"]:::code
+  EN["English?<br/>also searched<br/>in Icelandic"]:::llm
+  CH["Checker<br/>place, country, year"]:::code
+  TOP(["Top 12<br/>to the model"]):::io
+  Q --> T1 & T2 & T3 & T4
+  T1 & T2 & T3 & T4 --> F
+  F --> EN --> CH --> TOP
+  classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
+  classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
+  classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
+</div>
+</div>
+
+<div class="step">
+<p><b>4 · The model chooses, code checks.</b> The model picks the table and the value codes; code drops codes the table does
+not have, fills what the question left open with the newest period or the total, says so (“Miðað við: Ár 2026”) and offers
+other periods or places as buttons. A year not published yet gets the newest figure, said so; a look-alike table that holds
+another figure is named under the answer.</p>
+<div class="mermaid">
+flowchart LR
+  D["Dates in code<br/>„í fyrra“ becomes 2025"]:::code --> P["Pick a table<br/>from the top 12"]:::llm --> V["Choose the<br/>value codes"]:::llm --> C["Code checks the codes;<br/>fills the newest period<br/>or the total"]:::code --> S{"Self-check<br/>do the rows<br/>answer it?"}:::llm
+  S -->|yes| A(["Answer, with „Miðað við“<br/>and buttons for other<br/>periods and places"]):::io
+  S -->|"no: next table, up to 3"| P
+  S -->|none fits| N(["No data"]):::io
+  classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
+  classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
+  classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
+</div>
+</div>
+
+<div class="step">
+<p><b>5 · Several tables.</b> The model splits a question into up to four sub-questions, one table each, read in parallel;
+code can join them with a calculation; anything beyond four is named in the answer, never dropped.</p>
+<div class="mermaid">
+flowchart LR
+  Q(["A question about<br/>several things"]):::io --> SP["LLM splits it,<br/>one sub-question<br/>per table"]:::llm --> R["Up to 4 sub-questions,<br/>read in parallel"]:::code --> J["Code joins them<br/>a share, a rate per head"]:::code --> AN(["One answer"]):::io
+  SP -->|beyond 4| N(["Named: ask<br/>separately"]):::io
+  classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
+  classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
+  classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
+</div>
+</div>
+
+<div class="step">
+<p><b>6 · Code computes and checks.</b> The model only names the operation: differences, percent changes, shares, ratios,
+rates per 1,000, sums, averages and whitelisted multi-step formulas. Code computes it, with units made whole first (millions
+of krónur per inhabitant), and checks every number in the written answer against the data.</p>
+<div class="mermaid">
+flowchart LR
+  R[("Rows read")]:::data --> PL["LLM names<br/>the operation<br/>and the rows"]:::llm --> CC["Code computes<br/>units made whole;<br/>a formula is parsed,<br/>never run"]:::code --> W["LLM writes<br/>the sentence"]:::llm --> CK{"Code checks<br/>every number<br/>in the answer"}:::code
+  CK -->|all in the data| OK(["Answer,<br/>marked checked"]):::io
+  CK -->|one is not| RW(["The rows,<br/>as they are"]):::io
+  classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
+  classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
+  classDef data fill:#e7f2ec,stroke:#217346,stroke-width:1.5px,color:#17182b
+  classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
+</div>
+</div>
+
+<div class="step">
+<p><b>7 · No data, said plainly.</b> A subject map (the release’s 155 folders, each with everyday words from one LLM call,
+148 words corrected by hand) adds the subject’s tables. “How many apples are eaten in Iceland?” has no table; it offers
+potatoes, tomatoes and cereal grain in 2025, each one answered.</p>
+<div class="mermaid">
+flowchart LR
+  ND(["Every table failed<br/>the self-check"]):::io --> MAP["Subject map<br/>155 folders,<br/>everyday words"]:::code --> W["LLM writes up to 6<br/>close questions about<br/>what the tables list"]:::llm --> ASK["Each asked for real,<br/>in parallel,<br/>rows only"]:::code --> SH(["First 3 that answer,<br/>offered as buttons"]):::io
+  ASK -->|none answered| W2["Written again once,<br/>told which failed"]:::llm
+  W2 --> ASK
+  classDef llm fill:#f1edfd,stroke:#6631d7,stroke-width:1.5px,color:#17182b
+  classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
+  classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
+</div>
+</div>
+
+<div class="step">
+<p><b>8 · Every answer shows</b> what is needed to check it or reproduce it.</p>
+<div class="mermaid">
+flowchart TB
+  A(["Answer"]):::io
+  T["Tables and<br/>values chosen"]:::data
+  U["Unit and the<br/>table’s own note"]:::data
+  C["Citation and the<br/>PX-API query"]:::code
+  F["Confidence measured<br/>on our tests"]:::code
+  S["Response time"]:::code
+  A --> T & U & C & F & S
+  classDef code fill:#fff6d9,stroke:#7a5c00,stroke-width:1.5px,color:#17182b
+  classDef data fill:#e7f2ec,stroke:#217346,stroke-width:1.5px,color:#17182b
+  classDef io fill:#eef0f6,stroke:#9a9cb0,stroke-width:1.5px,color:#17182b
+</div>
+</div>
 
 <h2>Results on Statistics Iceland’s data</h2>
 <p>Benchmarked with the organizers’ own <code>gagnvist evaluate</code>, unchanged: an answer is right only if it states every
@@ -157,6 +235,20 @@ expected number and cites a table that holds it. Expected numbers are read from 
 <p><b>Baselines and speed.</b> The starter kit answered 7 of its own 52 test questions, and the organizers’ pipeline run with
 our Qwen3-30B 8 of the 60. Ours takes about 4 to 5 s per answer; 10 questions sent at once were all answered in 19.4 s, with
 no errors. The 60 shaped many of our rules, so the frozen and blind sets (73% to 95%) are the fairer picture of new questions.</p>
+
+<h2>What we built, against the tracks</h2>
+<p>Our track is Track 2 (direct PX-API). We also did the core of Track 3 (retrieval on HPC), on the JURECA supercomputer
+instead of LUMI.</p>
+<table class="keep">
+  <tr><th>Asked for</th><th>What we did</th></tr>
+  <tr><td>Track 2: extend table search and GET/POST queries</td><td>All 1,886 tables reachable through our own four-way search (the Track 2 starter answered from three hand-picked tables); every table’s metadata crawled with GET, numbers read with POST queries or from the release</td></tr>
+  <tr><td>Track 2: multiple questions in one API call; concurrency</td><td>Up to 10 questions per API call and 5 per chat message, answered in parallel; one question can span up to 4 tables; 10 at once in 19.4 s, no errors</td></tr>
+  <tr><td>Track 2: validate dimensions, filters, units and sources; include the source and selected dimensions</td><td>Value codes validated, units made whole, a self-check on the rows and every number checked against the data; every answer shows the table, the values chosen, the unit, the citation and the PX-API query</td></tr>
+  <tr><td>Track 2: your own frontend</td><td>A web page in three views (users, presentation, developers) and a chat, on FastAPI with the starter’s own endpoint and fields</td></tr>
+  <tr><td>Track 2: Ollama integration</td><td><b>Not done.</b> The model is served by vLLM through the same OpenAI-compatible API that Ollama offers, but we did not test Ollama</td></tr>
+  <tr><td>Track 3: embeddings and retrieval on HPC</td><td>On JURECA, not LUMI: bge-m3 table vectors computed on GPUs, bge-m3 fine-tuned on 4,580 questions (21 minutes on 4 A100s), Gemma 4 31B served with vLLM</td></tr>
+  <tr><td>Track 3: compare retrieval quality and performance</td><td>On the organizers’ 60, an embedding search alone gets 7 right and our fused search 16 (before any model picks); with the fine-tuned bge-m3 the full system got 56 against 54 with the base one (31 Oct)</td></tr>
+</table>
 
 <h2>Limits</h2>
 <ul>
